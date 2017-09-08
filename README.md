@@ -40,7 +40,7 @@ This three-session workshop combines the tactical skills needed to structure web
 * Possible explorations
 
 ## Software needed
-* Download[Sublime Text](https://www.sublimetext.com/3) or other HTML editor, such as [Atom](https://atom.io/) or [Text Wrangler](http://www.barebones.com/products/TextWrangler/)
+* Download [Sublime Text](https://www.sublimetext.com/3) or other HTML editor, such as [Atom](https://atom.io/)
 * Join GitHub and  we'll add you to the team!
 * Download [GitHub Mac client](https://desktop.github.com/) and clone the [class repository](https://github.com/risd-web/wp-fall17)
 * Test in Google Chrome, Safari, and/or Firefox — assignments will be evaluated in Chrome
