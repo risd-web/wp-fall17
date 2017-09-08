@@ -1,0 +1,35 @@
+body{
+	  font-family: helvetica
+}
+
+body{
+      background-color: lightblue;
+}
+
+
+h1{
+	background: yellow;
+	font-size: 3rem;
+	padding: 3rem;
+	border:15px solid red;
+	margin: 6rem;
+	width: 300px;
+}
+
+
+li{
+	color: red;
+}
+
+h3{ 
+	color: white;
+ }
+
+section{
+	border: 20px solid blue;
+	padding: 5rem;
+}
+
+.special{
+	color:yellow;
+}
