@@ -1,4 +1,4 @@
-# Syllabus
+# Syla
 
 * Workshop: WEB PROGRAMMING; RISD GRAPH-3188 (26268)
 * Fall 2017, 1:10pm–6:10pm, Fridays. Room 404
