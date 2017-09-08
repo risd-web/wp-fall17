@@ -48,10 +48,9 @@ This three-session workshop combines the tactical skills needed to structure web
 
 ## Resources
 * Clone the [Demos Repository]()
-* [Lectures](https://drive.google.com/open?id=0B3lDDEnD7CkNOVBFdk9xX2pGams) are available on Google Drive 
-* Be sure to refer to the [Wiki](https://github.com/risd-web/wp-fall17/wiki) on the Github page for useful resources
+* Review the [lectures](https://drive.google.com/drive/folders/0B3lDDEnD7CkNN0xvMEI1QmkyNkE?usp=sharing) are available on Google Drive 
+* Check out the [Wiki](https://github.com/risd-web/wp-fall17/wiki) on the Github page for useful resources
 * Quick reference when [Troubleshooting](https://github.com/risd-web/wp-fall17/wiki/Common-Errors)
-* Sample [web planning docs](https://drive.google.com/open?id=0B3lDDEnD7CkNc1FVQVdlYUtiLXM)
 * Check out & add to [Sites](https://github.com/risd-web/wp-fall17/wiki/Sites) for inspiration
 * Clone the Github Repo from the [previous class](https://github.com/risd-web/wp-spring17)
 
