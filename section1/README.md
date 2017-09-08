@@ -1,5 +1,5 @@
-# Section One
-Students:
+# Web Programming Fall 2017: Section One
+
 * Nick Adam
 * Amy Auman
 * Cara Buzzell
