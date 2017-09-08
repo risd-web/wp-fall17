@@ -1,4 +1,4 @@
-# Section One
+# Section 
 Students:
 * Nick Adam
 * Amy Auman
