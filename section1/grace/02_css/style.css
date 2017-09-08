@@ -1,0 +1,13 @@
+body {
+	background-image: url(http://i.imgur.com/1SEM8HK.jpg);
+	background-repeat: no-repeat;
+	color: blue;
+	font-family: sans-serif;
+
+}
+
+li {
+	color: black;
+	list-style-type: none;
+	display: inline;
+}
