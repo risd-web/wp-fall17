@@ -6,30 +6,48 @@ body{
       background-color: orange;
 }
 
+p{
+	max-width: 800px;
+	padding-left: 5rem;
+	font-size: 16pt
+	;
+}
 
 h1{
-	background: yellow;
-	font-size: 10rem;
-	padding: 3rem;
-	border:15px solid red;
+	font-size: 6rem;
 	margin: 6rem;
-	width: 300px;
+	width: 500px;
 }
 
 li{
-	color: red;
+	color: black;
+	font-size: 3rem;
+	margin-left:5rem
+	;
 }
 
 h3{ 
 	color: white;
+	margin-top: 1rem;
+	padding-left: 5rem;
+	font-size: 2rem;
+	outline-style: dotted;
+
+ }
+
+ div{
+ 	margin-left: 6rem;
  }
 
 section{
-	border: 20px solid blue;
-	padding: 3rem;
+	border: 10px solid blue;
+	padding: 2rem;
+	margin-left:6rem;
+	margin-right: 6rem;
+	margin-top:1rem;
+	margin-bottom:1rem
+	;
 }
 
-.special{
-	color:yellow;
-}
+
 
