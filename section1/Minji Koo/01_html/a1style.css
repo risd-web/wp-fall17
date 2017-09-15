@@ -51,3 +51,24 @@ div.tab {
     border: 0px solid #ccc;
     background-color: #666600;
 }
+
+a:link{
+	color: #c3c388;
+	font-size:20px;
+  	font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  	font-weight:200;
+}
+a:visited{
+	color: #c3c388;
+	font-size:20px;
+  	font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  	font-weight:200;
+}
+
+table, th, td {
+	color: #cccccc;
+	font-size:20px;
+  	font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  	font-weight:200;
+  
+}
