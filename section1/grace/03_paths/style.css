@@ -1,0 +1,28 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+	color: purple;
+	text-decoration: none;
+}
+
+.cats{
+ 	background: #ffffff url("media/giphy.gif") repeat right top fixed; 
+ 	/* shorthand for
+	background-color: #ffffff; 
+ 	background-image: url("img_tree.png");
+ 	background-repeat: no-repeat;
+ 	background-position: right top;
+ 	background-attachment: fixed;
+ 	*/
+ 	background-size: 100px;
+}
+
+.red{
+	background: red;
+}
+
+.yellow{
+	background: yellow;
+}
