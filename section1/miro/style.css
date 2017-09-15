@@ -1,21 +1,20 @@
 body{
-	  font-family: helvetica
+	  font-family: helvetica;
 }
 
 body{
-      background-color: lightblue;
+      background-color: orange;
 }
 
 
 h1{
 	background: yellow;
-	font-size: 3rem;
+	font-size: 10rem;
 	padding: 3rem;
 	border:15px solid red;
 	margin: 6rem;
 	width: 300px;
 }
-
 
 li{
 	color: red;
@@ -27,9 +26,10 @@ h3{
 
 section{
 	border: 20px solid blue;
-	padding: 5rem;
+	padding: 3rem;
 }
 
 .special{
 	color:yellow;
 }
+
