@@ -1,0 +1,144 @@
+
+/*CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, p, a, img, menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*my code */
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1em;
+  text-align: left;
+  margin-left: 10px;
+}
+
+h1{
+	font-style: 400;
+  font-size: 2rem;
+	padding: 30px 0 0 5px;
+	margin: 0;
+}
+
+nav{
+  display: flex;
+}
+
+nav a{
+  margin: 5px;
+}
+
+.container {
+  position: relative;
+/*  width: 33%;
+  float: left;*/
+  box-sizing: border-box;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF9A7A;
+}
+
+.overlay_teal{
+  background-color: #23CBC6;
+}
+
+.overlay_purple{
+  background-color: #BE23CB;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+
+.resize {
+  position: relative;
+}
+
+p {
+  text-align: left;
+  float: left;
+  width: 35%;
+  padding: 0 20px 0 20px;
+  line-height: 1.5;
+}
+
+
+.secondary {
+  float: left;
+  width: 60%;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
