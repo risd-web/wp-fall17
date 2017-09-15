@@ -45,7 +45,7 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 1em;
   text-align: left;
-  margin-left: 10px;
+  margin: 0 10px 0 10px;
 }
 
 h1{
@@ -58,6 +58,8 @@ h1{
 nav{
   display: flex;
 }
+
+/*  applies the flex to the whole nav so that it floats inline; this is why I didn't need to add float */
 
 nav a{
   margin: 5px;
@@ -114,6 +116,8 @@ nav a{
 h2 {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.5em;
+  font-weight: bold;
+  font-weight: 700;
   padding: 5px;
 }
 
@@ -133,12 +137,11 @@ p {
 
 .secondary {
   float: left;
-  width: 60%;
+  width: 58%;
+  margin: 5px;
 }
 
-body {
-  font-family: 'Work Sans', sans-serif;
+.home_button {
+  margin-left: 5px;
 }
-
-
 
