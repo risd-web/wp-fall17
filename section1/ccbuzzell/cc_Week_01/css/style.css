@@ -2,10 +2,19 @@
 	box-sizing: border-box;
 }
 
+section {
+	width:100%;
+	overflow:hidden;
+
+}
+
+
+
 body {
 	background-color:black;
 	color:white;
 	font-family: sans-serif;
+	margin:0;
 }
 
 article {
@@ -39,6 +48,7 @@ ul {
 	border: 1px solid pink;
 	font-family: 'Archivo Black', sans-serif;
 	padding:20px;
+	width:370px;
 }
 
 li {
@@ -90,8 +100,8 @@ li {
 
 .circle2 {
     float:left;
-    margin-left:-60%;
-    
+    margin-left:-61.5%;
+
 }
 
 
