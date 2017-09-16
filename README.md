@@ -20,20 +20,16 @@ This three-session workshop combines the tactical skills needed to structure web
 ### Week One: Content
 >Week one emphasizes the strategic and deliberate construction of space on a web page, working with content. 
 * Assignment 1: Semantically markup and style some text
-
 	Continue with the in-class exercise to practice formatting content. Try to use semantic elements (`<section> <h1> <p> <em>`) as appropriate.
 * Assignment 2: Create a multi-page website
-
 	Create a website that consists of at least 3 different pages, linking them together with relative paths. You should use a single stylesheet for all your pages.
 
 
 ### Week Two: Form
 >Week two encourages a different mindset, using code and the browser to discover designs as you make.  
-* Assignment 3: Draw concrete objects using CSS shapes or repeat abstract shapes to create a pattern
-
+* Assignment 3: a)draw concrete objects using CSS shapes or b)repeat abstract shapes to create a pattern
 	Play with CSS properties, positioning, z-index, overflows to "draw" in the browser
 * Assignment 4: Compose a web poster — use abstract shapes / grids
-
 	Apply your understanding of "chunks" and sectioning to create a one-page layout with graphics and text. You may use Muller-Brockman posters as a guide, or one of your own. 
 
 ### Week Three: Behavior
