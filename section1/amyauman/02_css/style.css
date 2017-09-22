@@ -1,0 +1,32 @@
+
+body {
+	font-size: 1em;
+	padding-left: 1rem;
+}
+
+h1{
+	font-size: 2.5rem;
+	font-family: 'Rubik', sans-serif;
+	padding: .5rem 0 .5rem 0;
+	margin: 0;
+}
+
+h2{
+	font-size: 1.5rem;
+	font-family: 'Rubik', sans-serif;
+}
+
+p {
+	font-family:'Slabo 27px', serif;
+}
+
+h3{
+	font-size: 1.25rem;
+	font-family: 'Rubik', sans-serif;
+}
+
+h4{
+	font-size: 1rem;
+	font-family: 'Rubik', sans-serif;
+	font-style: italic;
+}

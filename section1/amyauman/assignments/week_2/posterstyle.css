@@ -1,0 +1,161 @@
+html, body, div, p, a, img, menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.black{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	display: flex;
+}
+
+.black1{ 
+	width: 100px;
+	height: 500px;
+	margin-right: 100px;
+	background: black;
+}
+
+.black2{ 
+	width: 100px;
+	height: 500px;
+	margin-right: 100px;
+	background: black;
+}
+
+.black3{ 
+	width: 100px;
+	height: 500px;
+	margin-right: 100px;
+	background: black;
+}
+
+.black4{ 
+	width: 100px;
+	height: 500px;
+	margin-right: 100px;
+	background: black;
+}
+
+.red{
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	display: flex;
+}
+
+.red1{ 
+	width: 50px;
+	height: 250px;
+	margin-right: 150px;
+	background: #B90707;
+}
+
+.red2{ 
+	width: 50px;
+	height: 250px;
+	margin-right: 150px;
+	position: relative;
+	top: 100px;
+	background: #B90707;
+}
+
+.red3{ 
+	width: 50px;
+	height: 250px;
+	margin-right: 150px;
+	background: #B90707;
+}
+
+.green{
+	position: absolute;
+	top: 150px;
+	left: 350px;
+	display: flex;
+}
+
+.green1{ 
+	width: 50px;
+	height: 250px;
+	margin-right: 150px;
+	background: #147A3F;
+}
+
+.green2{ 
+	width: 50px;
+	height: 250px;
+	position: relative;
+	top: 150px;
+	margin-right: 150px;
+	background: #147A3F;
+}
+
+.green3{ 
+	width: 50px;
+	height: 250px;
+	margin-right: 150px;
+	background: #147A3F;
+}
+
+.container {
+	position: relative;
+	top: 80px;
+	left: -35px;
+	transform: rotate(35deg);
+}
+
+.textblock {
+	clear: both;
+	position: absolute;
+	top: 750px;
+	left: 50px;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+	font-size: .8em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.block1 {
+	float: left;
+	width: 160px;
+	margin-right: 10px;
+}
+
+.block2 {
+	float: left;
+	width: 160px;
+	margin-right: 10px;
+}
+
+.block3 {
+	float: left;
+	width: 160px;
+	margin-right: 10px;
+}
+
+.block4 {
+	float: left;
+	width: 160px;
+	margin-right: 10px;
+}
+
+.spacebelow {
+	margin-bottom: 15px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+body {
+	background: #E0E0E0;
+}
