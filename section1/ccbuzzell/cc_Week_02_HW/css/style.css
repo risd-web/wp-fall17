@@ -4,7 +4,7 @@
 	}
 
 body {
-	background-color:black;
+	background-color:white;
 	padding: 1em;
 }
 
@@ -21,16 +21,9 @@ body {
 .I-container{
 	/*PLAY WITH THIS--------------------*/
 	flex-grow: 1;
+	padding-bottom: 5%;
 }
-/*commented out--------------------*/
-.heart-container{
-	padding-left:12em;
-	margin-right:-2em;
-	width:;
-	overflow: ;
-	/*PLAY WITH THIS--------------------*/
-	flex-grow: 1;
-}
+
 
 .Y-container{
 	/*PLAY WITH THIS--------------------*/
@@ -64,7 +57,7 @@ body {
     border-radius: 16em 16em 0 0;
     -webkit-transform: rotate(-45deg);
 	-webkit-transform-origin: 0 100%;
-	margin-left: 12em;
+	margin-left: 14.5%;
 
 	
     }
@@ -72,8 +65,8 @@ body {
 .heart-hump-right{
 	-webkit-transform: rotate(45deg);
 	-webkit-transform-origin: 100% 100%;
-	margin-left:-28em;
-	margin-right: 12em;
+	margin-left:-34.45%;
+	margin-right: 15.5%;
     }
 
 
@@ -87,9 +80,9 @@ body {
 	background-color: black;
 	-webkit-transform: rotate(60deg);
 	-webkit-transform-origin: 0 100%;
-	margin-left:-5.8em;
+	margin-left:-5.6em;
 	margin-top:-1.75em;
-	margin-right: -17em;
+	margin-right: -16.9em;
 }
 
 .N-stem{
@@ -129,16 +122,121 @@ body {
 }
 
 
+@media screen and (max-width: 1030px){
+
+.I-container:first-child {
+margin-left:5%;
+padding-right:5%;
+}	
+
+.I-stem {
+	margin: 0 22%;
+}
+
+.heart-hump-right{
+	margin-left: -28%;
+	margin-right: 9.7em;
+}
 
 
-
-
-
-
-@media screen and (max-width: 1400px){
-	body {
-		background-color: white;
-	}
+.Y-top-left{
+	margin-right: -12%;
 
 }
+.Y-top-right{
+	margin-left: -12%;
+
+}
+
+}
+
+@media screen and (max-width: 970px){
+
+
+
+.I-container:first-child {
+margin-left:12%;
+padding-right:4%;
+}
+
+.I-stem {
+	margin: 0 22%;
+}
+
+
+.heart-hump-left, .heart-hump-right{
+	margin-left: 11%;
+}
+
+.heart-hump-right{
+	margin-left:-41.5%;
+	margin-right: 38%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 900px){
+
+.I-container:first-child {
+margin-left:12%;
+padding-right:5%;
+}
+
+.I-stem {
+	margin: 0 22%;
+}
+
+
+.heart-hump-left, .heart-hump-right{
+	margin-left: 11%;
+}
+
+.heart-hump-right{
+	margin-left:-57.5%;
+	margin-right: 38%;
+    }
+
+
+
+.first-N {
+	margin: 0 30%;
+}
+
+
+.N-cross{
+	margin-left:-7.9em;
+	margin-right: -17.995em;
+}
+
+.N-stem {
+	margin: 0 37.6%;
+}
+
+.N-top {
+	margin-left:9%;
+}
+
+
+.Y-top-left{
+	margin-right: -16%;
+
+}
+.Y-top-right{
+	margin-left: -16%;
+
+}
+
+
+.Y-container .N-stem {
+	margin: 0 32%;
+}
+
+.Y-container .I-bar-top{
+	margin: 0 -4.0%;
+}
+
+}
+
 
