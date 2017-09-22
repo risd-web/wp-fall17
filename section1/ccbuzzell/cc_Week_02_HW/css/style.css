@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	}
+
+body {
+	background-color:black;
+	padding: 1em;
+}
+
+
+#ALL-container {
+	/*PLAY WITH THIS--------------------*/
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 3.05em 2.05em;
+}
+
+
+.I-container{
+	/*PLAY WITH THIS--------------------*/
+	flex-grow: 1;
+}
+/*commented out--------------------*/
+.heart-container{
+	padding-left:12em;
+	margin-right:-2em;
+	width:;
+	overflow: ;
+	/*PLAY WITH THIS--------------------*/
+	flex-grow: 1;
+}
+
+.Y-container{
+	/*PLAY WITH THIS--------------------*/
+	margin-left: -16.9em;
+	padding-right: 7em;
+	padding-top: 1.5em;
+
+
+}
+
+
+.I-bar-top, .N-bar-top, .Y-bar-top{
+	height:3em;
+	width: 10em;
+	border-radius: 1.5em;
+	background-color: black;
+}
+
+.I-stem, .N-stem{
+	height:16em;
+	width: 3em;
+	background-color: black;
+	margin: 0 auto;
+}
+
+
+.heart-hump-left, .heart-hump-right{
+    width: 14em;
+    height: 22em;
+    background: red;
+    border-radius: 16em 16em 0 0;
+    -webkit-transform: rotate(-45deg);
+	-webkit-transform-origin: 0 100%;
+	margin-left: 12em;
+
+	
+    }
+
+.heart-hump-right{
+	-webkit-transform: rotate(45deg);
+	-webkit-transform-origin: 100% 100%;
+	margin-left:-28em;
+	margin-right: 12em;
+    }
+
+
+.N-bar-top{
+	width: 8.2em;
+}
+.N-cross{
+	height:3em;
+	width: 24.55em;
+	border-radius: 1.5em;
+	background-color: black;
+	-webkit-transform: rotate(60deg);
+	-webkit-transform-origin: 0 100%;
+	margin-left:-5.8em;
+	margin-top:-1.75em;
+	margin-right: -17em;
+}
+
+.N-stem{
+	height:17.5em;
+}
+
+.Y-top-left{
+	margin-right: -10%;
+	z-index: 100;
+
+}
+.Y-top-right{
+	margin-left: -10%;
+	z-index: 100;
+
+}
+
+.Y-triangle {
+	width: 0;
+	height: 0;
+	border-left: 10em solid transparent;
+	border-right: 10em solid transparent;
+	border-top: 16em solid black;
+	position: relative;
+}
+
+.Y-triangle::after {
+	content:'';
+	width: 0;
+	height: 0;
+	border-left: 7em solid transparent;
+	border-right: 7em solid transparent;
+	border-top: 11em solid white;
+	position: absolute;
+	margin-top: -16em;
+	margin-left: -7em;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px){
+	body {
+		background-color: white;
+	}
+
+}
+
