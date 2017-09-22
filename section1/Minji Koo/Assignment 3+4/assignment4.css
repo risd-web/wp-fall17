@@ -1,10 +1,16 @@
 p {
 	font size: 14px;
 	color: purple;
-	font-family: didot;
+	font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
 	text-align: center;
 	padding-top: 50px;
 }
+
+body {
+    background-color: #c2e7ed;
+}
+
+
 h1 {
 	font size: 40px;
 	color: green;
@@ -54,7 +60,15 @@ h1 {
     margin: 10px;
  }
 
- #text, #bg{
+ #text{
+ 	width: 500px;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100vw;
+ 	height: 100vh;
+ }
+ #bg{
  	position: absolute;
  	top: 0;
  	left: 0;
