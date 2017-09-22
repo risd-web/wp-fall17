@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Overflow</title>
+		<title>Combos</title>
+		<style>
+			div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all brick divs nested WITHIN divs */
+			
+			div>.brick {  /* declarations */ }
+			/* brick classes with a direct parent div */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div+.brick {  /* declarations */ }
+			/* if brick class comes right after div */
+
+			div~.brick {  /* declarations */ }
+			/* if brick class comes after div, not necessarily immediately  */
+
+			.layer1 { 
+				background: none;
+				width: 120%;
+				   }
+
+			.layer1 div { 
+				width: 50px;
+				height: 50px;
+				float: left;
+				border: 80px solid rgba(150,255,5,1);
+				border-right: 80px solid transparent;
+				border-radius: 50%;
+				mix-blend-mode: multiply;
+				transform: rotate(10deg);
+				margin: -40px;
+			 }
+
+			.layer1 div:nth-child(even) {
+				 border-color: rgba(0,155,245,1);
+				 border-left: 80px solid transparent;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="layer1">
+			<div></div>
+			<div></div>
+			<div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+		</div>
+	
+	
+	</body>
+</html>
