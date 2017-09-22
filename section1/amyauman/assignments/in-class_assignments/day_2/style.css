@@ -1,0 +1,28 @@
+
+body{
+	background-color: #f4bc42;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+	border: 10px solid;
+	margin: 40px;
+}
+
+.white .box{
+	border-color: white;
+}
+
+.black .box{
+	border-color: black;
+}
+
+.white, .black{
+	float: left;
+	width: 300px;
+}
+
+section{
+	overflow: auto;
+}
