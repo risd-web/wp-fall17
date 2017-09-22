@@ -1,0 +1,13 @@
+.shape {
+   float: left;
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin: 30px;
+   width: 265px;
+   height: 265px;
+   shape-margin: 20px;
+}
+.pentagon {
+   background-image: url('../img/pentagon.svg');
+   shape-outside: polygon(32px 126px, 163px 32px, 293px 127px, 244px 282px, 82px 281px);
+}
