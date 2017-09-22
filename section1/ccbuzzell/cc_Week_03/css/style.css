@@ -10,6 +10,7 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-wrap: wrap;
+	overflow: hidden;
 	
 }
 
@@ -20,7 +21,7 @@ body {
 
 .section-change {
 	font-size: 6em;
-	background: linear-gradient(to left, blue , pink);
+	
 }
 
 section {
@@ -157,6 +158,7 @@ section {
 	animation-name: bump;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    transition: height 1s ease-in-out, transform 1s ease-in-out ;
 }
 
 @keyframes bump {
@@ -166,3 +168,14 @@ section {
     	transform:translateY(20px);}
 }
 
+
+.circle:hover{
+	border-radius: 6em;
+	height: 8em;
+	width: 8em;
+	transform:translateY(30px);
+	animation-name: bump;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform: rotate(80%); 
+}

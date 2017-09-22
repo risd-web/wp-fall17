@@ -13,11 +13,13 @@ $(".fun").click(function(){
 $(".dope").click(function(){
         $(".panel").toggleClass("circle");
         $(".overlay").toggleClass("circle");
+        $('body').toggleClass('body-change');
     });
 
 
 $(".circle").hover(function(){
         $(".fun").toggle();
+
     });
 
 
@@ -31,7 +33,13 @@ $(".box").hover(function(){
     });
 
 
-
+$("body").click(function(){
+        $("section").each( function(index, element){
+	var random = 10*Math.random();
+    $(this).css("height",random+"em");
+    $(this).css("width",random+"em");
+});
+    });
 
 
 
