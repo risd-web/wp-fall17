@@ -41,6 +41,8 @@
  #infinity {
     animation: spin 1s infinite;
  }
+ @keyframes
+    
 
 #heart {
     position: relative;
