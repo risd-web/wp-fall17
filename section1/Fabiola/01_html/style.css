@@ -152,7 +152,11 @@ body#rohan{
  	color:white;
  }
 
-
+.container{
+	background: white;
+	width: 50%;
+	margin: auto;
+}
 
 body#fabi{
  	text-align: center;
@@ -169,6 +173,16 @@ body#fabi{
  .text1{
  	color:lime;
  	text-align: center;
+}
+
+.images{
+	display: flex;
+	width: 50%;
+	margin: auto;
+}
+
+.chunk{
+	flex: 1;
 }
 
 body#fabi2{
