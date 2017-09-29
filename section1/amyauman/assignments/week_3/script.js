@@ -3,11 +3,21 @@ $(document).ready(function(){
 
 		console.log("check for animation click");
 
-	$('body').click(function(){
+	$('.smalltriangle').click(function(){
 
-		$('.circle').toggleClass("animate");
 		$('.smalltriangle').toggleClass("animate");
 
 	});
 
+
+
+	$('.circle').hover(function(){
+
+		$('.circle').toggleClass("animate2");
+
 	});
+
+	});
+
+
+

@@ -108,15 +108,19 @@ body {
 
   to {
     opacity: 0;
-    transform: translate3d(-100%, 0, 0);
+    transform: translate(-1000px);
   }
 }
 .animate{
-	animation: fadeOutLeft 4s ease-in 1;
+	animation: fadeOutLeft 2s ease-in 1 forwards;
 }
 
-body:hover{
+.smalltriangle:hover{
 	cursor: pointer;
+}
+
+.animate2{
+	animation: encircle 3s linear infinite; 
 }
 
 
