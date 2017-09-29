@@ -1,0 +1,86 @@
+body{
+
+	background-color: #990000;
+	margin: 0 100px 200px 100px;
+	margin-top: 0;
+	margin-right: 100px;
+	margin-bottom: 200px;
+	margin-left: 100px;
+}
+
+h1{
+	font-family:'Codystar', cursive;
+	font-size: 4rem;
+	font-style: bold;
+	font-weight: 700;
+	color: #111111;
+}
+
+h2{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1rem;
+	font-style: ;
+	color: #222222;
+}
+
+h3{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1rem;
+	font-style: 700;
+	color: #222222;
+
+	margin: 0 200px 30px 0px;
+	margin-top: 0;
+	margin-right: 200px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+h4{
+	font-family: 'Codystar', cursive;
+	font-size: 1rem;
+	font-style: bold;
+	font-weight: 700;
+	text-align: center; 
+	color: #111111;
+}
+
+	/*Flexbox layout*/
+	#flexbox{
+	    display: flex;
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+}
+
+.col1{
+        flex: 2;
+}
+
+.col2, .col3{
+        flex: 2;
+}
+
+a{
+	color: #999999;
+	text-decoration: underline;
+}
+
+.cats{
+ 	background: #ffffff url("media/giphy.gif") repeat right top fixed; 
+ 	/* shorthand for
+	background-color: #ffffff; 
+ 	background-image: url("img_tree.png");
+ 	background-repeat: no-repeat;
+ 	background-position: right top;
+ 	background-attachment: fixed;
+ 	*/
+ 	background-size: 100px;
+}
+
+.red{
+	background: red;
+}
+
+.yellow{
+	background: yellow;
+}
