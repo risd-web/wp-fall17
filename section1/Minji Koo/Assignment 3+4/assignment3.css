@@ -1,0 +1,20 @@
+<style>
+.shapeborder { border:1px solid black; }
+.circle { border-radius: 50%; }
+
+.outer {
+            float: right;
+			margin: 0 0 10px 10px;
+            background-color:#fff9a3;
+            width:200px;
+            height:200px;
+            position:relative;
+}.inner {
+            background-color:#c2eaeb;
+            top: 3%; left:3%;
+            width:65%;
+            height:65%;
+            position: relative;
+}
+</style>
+
