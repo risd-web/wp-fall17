@@ -5,9 +5,8 @@
 
 body {
 	background-color:white;
-	padding: 1em;
 	font-family: sans-serif;
-	background-color: #ddd;
+	/*background-color: #ddd;*/
 }
 
 header {
@@ -20,17 +19,27 @@ header {
 	/*PLAY WITH THIS--------------------*/
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 auto;
-	padding: 3.05em 2.05em;
-	text-align: center;
+	margin:auto;
+	padding: 1em 1em;
 }
 
-.I-container, .heart-container {
+.I-container, .heart-container, .Y-container {
 	display: flex;
-	flex-grow: 1;
 	flex-wrap: wrap;
+	margin: 0% 0%;
+	flex-grow: 1;
+
 	
 }
+
+.I-container{
+}
+
+.heart-container{
+	position: relative;
+	flex-grow: 1;
+	}
+	
 
 
 .circle {
@@ -57,6 +66,7 @@ header {
 .bar {
 	width: 9em;
 	height: 6em;
+	margin: 0 -1.5em;
 	background-color: white;
 	display: flex;
 
@@ -74,39 +84,85 @@ border-bottom: 3em solid black;
 
 
 .horz-bar{
-	width: 9em;
+	width: 58%;
 	height: 12em;
 	background-color: white;
-	border-left: 3em solid black;
+	border-right: 3em solid black;
 	display: flex;
-		
+	animation-name: i-spin;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	
+}
+
+.hb-2{
+	border-left: 3em solid black;
+	border-right: none;
 
 }
+
+@keyframes i-spin {
+	0% {width:20%;  }
+	100% {width:80%;  }
+}
+
+
+
 
 .heart-circle{
-	width: 9em;
-	height: 9em;
+	width: 12em;
+	height: 12em;
 	background-color: red;
 	border-radius: 6em;
-	display: flex;
+	position: absolute;
+	margin-top:2.5em;
 }
 
+.hc-left{
+	left:10%;
+
+}
+
+.hc-right{
+	right:10%;
+
+}
 
 .heart-square{
-	width: 9em;
-	height: 9em;
+	width: 12em;
+	height: 12em;
 	background-color: red;
 	transform: rotate(45deg);
 	display: flex;
+	margin-top:26%;
+
+}
+
+.heart-spin{
+	background-color:blue;
 }
 
 
+.hs-left{
+	margin-left:26%;
+
+}
+
+.hs-right{
+	margin-left:-47%;
+
+}
 
 
+.black {
+	background-color: black;
+	border: white;
+}
 
-
-
-
+.white {
+	background-color: white;
+	border: black;
+}
 
 
 
