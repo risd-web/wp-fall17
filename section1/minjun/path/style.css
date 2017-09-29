@@ -31,13 +31,20 @@ border-style:
 height: 200px
 width: 200px;}
 
-.box{
+.box1{
+	float:left;}
+
+.box2{
 	width: 500px
 	height: 500px;
-	float:center;
+	float: center;
 	background: #000;
 	margin-right: 200px
 	margin-bottom: 200px
 	color: white;
 	font-size: 3rem;
+}
+
+.box3{
+	float:right;
 }
