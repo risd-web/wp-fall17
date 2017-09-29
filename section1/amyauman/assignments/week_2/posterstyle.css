@@ -63,6 +63,7 @@ time, mark, audio, video {
 	margin-right: 150px;
 	position: relative;
 	top: 100px;
+	z-index: 10;
 	background: #B90707;
 }
 
@@ -105,16 +106,16 @@ time, mark, audio, video {
 
 .container {
 	position: relative;
-	top: 80px;
-	left: -35px;
+	top: 45px;
+	left: -300px;
+	height: 760px;
 	transform: rotate(35deg);
 }
 
 .textblock {
 	clear: both;
-	position: absolute;
-	top: 750px;
-	left: 50px;
+	position: relative;
+	margin-left: 20px;
 }
 
 p{
@@ -124,25 +125,7 @@ p{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.block1 {
-	float: left;
-	width: 160px;
-	margin-right: 10px;
-}
-
-.block2 {
-	float: left;
-	width: 160px;
-	margin-right: 10px;
-}
-
-.block3 {
-	float: left;
-	width: 160px;
-	margin-right: 10px;
-}
-
-.block4 {
+.block {
 	float: left;
 	width: 160px;
 	margin-right: 10px;
@@ -159,3 +142,23 @@ p{
 body {
 	background: #E0E0E0;
 }
+
+@keyframes movedown{
+	0%  {
+		 transform: translateY(0px);
+	}
+		50%  {
+			 transform: translateY(400px);
+	}
+	100%{
+	 		transform: translateY(0px);
+	}
+}
+
+.animate{
+	animation: movedown 4s ease-in infinite;
+}
+
+
+
+
