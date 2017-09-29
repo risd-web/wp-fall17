@@ -1,0 +1,37 @@
+body{
+	position: relative;
+}
+
+h1{
+	font-size: 110px;
+	color: yellow;
+	text-align: center;
+	margin-top: 10%;
+	position: absolute;
+	z-index: 10;
+}
+
+img{
+	width: 45%;
+	margin: 10px;
+}
+
+.photos{
+	flex-wrap: wrap;
+}
+
+.right{
+	position: relative;
+	top: 200px;
+}
+
+.dot{
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background: pink;
+	position: absolute;
+	top: 10em;
+	left: 50em;
+	z-index: 100;
+}
