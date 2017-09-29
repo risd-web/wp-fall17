@@ -27,16 +27,7 @@ ul {
 }
 
 .box{
-	width: 50px;
-	height: 300px;
-	float: left;
-	background: black;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	color: black;
-	font-size: 5rem;
-	display: flex;
-	padding-bottom: 0
+	size: 2em;
 }
 
 h1 {
@@ -44,32 +35,48 @@ h1 {
 }
 
 .whitebox {
-	width: 800px;
-	height: 300px;
-	background: white;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	color: white;
-	font-size: 5rem;
-	display: flex;
+	font-size: 2rem;
+	
 }
 
 .up{
 	transform: translate(0,-150px);
 }
 
+.collarge{
+	transform: translate(0, -360px);
+	animation: move 3.5s linear 0.2s infinite;
+
+}
+
+.collarge:hover{
+	cursor: pointer;
+}
+
+.coltwo{
+
+	transform: translate(0, -120px);
+	animation: move 3.5s linear 0.2s infinite;
+	color:blue;
+}
+	
+}
+
 .uptwo{
 	transform: translate(0, -120px);
 	animation: move 3.5s linear 0.2s infinite;
+	size: 20%;
 }
 
 .upthree{
 	transform: translate(0, -40px);
+	scale: 200%;
 }
 
 .box:hover{
 	cursor: pointer;
 }
+
 
 @keyframes move {
 0% {
@@ -77,8 +84,9 @@ h1 {
 }
 100% {
 	transform: rotate(180deg);
+	scale: 200%;
 }
-}
+
 
 @keyframes movetwo {
 0% {
@@ -86,6 +94,7 @@ h1 {
 }
 100% {
 	transform: rotate(-360deg);
+	scale: 200%;
 }
 }
 
@@ -106,5 +115,6 @@ h1 {
 }
 100% {
 	transform: rotate(-360deg);
+	scale: 200%;
 }
 }

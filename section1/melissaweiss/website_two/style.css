@@ -1,9 +1,10 @@
 body{
-	background: white;
+	background: yellow;
 	height: 200vh;
 	width: 800px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	color: blue;
 }
 
 ul {
@@ -13,7 +14,7 @@ ul {
 #text{
 	display: flex;
 	font-family: helvetica;
-	padding-bottom: 0
+	padding-bottom: 3em;
 }
 
 .col{
@@ -27,40 +28,31 @@ ul {
 }
 
 .box{
-	width: 50px;
-	height: 300px;
 	float: left;
-	background: black;
+	background: none;
 	margin-right: 5px;
 	margin-bottom: 5px;
+	margin-left:200px;
 	color: black;
 	font-size: 5rem;
 	display: flex;
 	padding-bottom: 0
+	margin-top:100;
 }
 
 h1 {
 	font-size: 2em;
 }
 
-.whitebox {
-	width: 800px;
-	height: 300px;
-	background: white;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	color: white;
-	font-size: 5rem;
-	display: flex;
-}
 
 .up{
-	transform: translate(0,-150px);
+	transform: translate(0, -40px);
+	animation: move 3.5s linear 0.2s infinite;
 }
 
+
 .uptwo{
-	transform: translate(0, -120px);
-	animation: move 3.5s linear 0.2s infinite;
+	transform: translate(0, -40px);
 }
 
 .upthree{
@@ -71,12 +63,17 @@ h1 {
 	cursor: pointer;
 }
 
+.question{
+	position: relative;
+	top: 5px;
+}
+
 @keyframes move {
 0% {
 	transform: rotate(0deg);
 }
 100% {
-	transform: rotate(180deg);
+	transform: rotate(360deg);
 }
 }
 
@@ -96,10 +93,10 @@ h1 {
 
 @keyframes colorchange {
 0% {
-	background-color: white;
+	color: white;
 }
 100% {
-	background-color: pink;
+	color: pink;
 }
 0% {
 	transform: rotate(0deg);
