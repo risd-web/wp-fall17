@@ -13,7 +13,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #cccccc;
     margin: 5em 0;
     padding: 0;
 }
@@ -24,7 +24,7 @@ h1	{
 	font-weight: 300;
 	text-align: center;
 	background-color: #b3b300;
-	border: 10px solid #000;
+	border: 10px solid ##cccccc;
 	padding: 1em;
 }
 h2	{

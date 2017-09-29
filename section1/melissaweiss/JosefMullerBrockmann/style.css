@@ -1,0 +1,84 @@
+body{
+	background: white;
+	height: 200vh;
+	width: 800px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#text{
+	display: flex;
+	font-family: helvetica;
+}
+
+.col{
+	flex: 1;
+	padding-right: 10px;
+}
+
+.large{
+	flex: 2;
+	padding-right: 10px;
+}
+
+.box{
+	width: 50px;
+	height: 300px;
+	float: left;
+	background: black;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	color: black;
+	font-size: 5rem;
+	display: flex;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+.whitebox {
+	width: 800px;
+	height: 300px;
+	background: white;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 5rem;
+	display: flex;
+}
+
+.up{
+	transform: translate(0,-150px);
+}
+
+.uptwo{
+	transform: translate(0, -120px);
+	animation: move 3.5s linear 0.2s infinite;
+}
+
+.upthree{
+	transform: translate(0, -40px);
+}
+
+@keyframes move {
+0% {
+	transform: rotate(0deg);
+}
+100% {
+	transform: rotate(180deg);
+}
+}
+
+@keyframes movetwo {
+0% {
+	transform: rotate(0deg);
+}
+100% {
+	transform: rotate(-360deg);
+}
+}
