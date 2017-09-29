@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	}
+
+body {
+	background-color:white;
+	padding: 1em;
+	font-family: sans-serif;
+	background-color: #ddd;
+}
+
+header {
+	color:red;
+	font-size: 3em;
+	text-align: center;
+}
+
+.container {
+	/*PLAY WITH THIS--------------------*/
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 3.05em 2.05em;
+	text-align: center;
+}
+
+.I-container, .heart-container {
+	display: flex;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	
+}
+
+
+.circle {
+	width: 3em;
+	height: 3em;
+	background-color: black;
+	border-radius: 3em;
+	display: flex;
+	flex-grow: 1;
+}
+
+.c-top {
+	margin-top: 3em;
+}
+
+.circle-neg {
+	width: 3em;
+	height: 3em;
+	background-color: white;
+	border-radius: 3em;
+	display: flex;
+	position: relative;
+}
+.bar {
+	width: 9em;
+	height: 6em;
+	background-color: white;
+	display: flex;
+
+
+}
+
+.bar-top{
+border-bottom: 3em solid black;
+
+}
+
+.bar-bottom {
+	border-top: 3em solid black;
+}
+
+
+.horz-bar{
+	width: 9em;
+	height: 12em;
+	background-color: white;
+	border-left: 3em solid black;
+	display: flex;
+		
+
+}
+
+.heart-circle{
+	width: 9em;
+	height: 9em;
+	background-color: red;
+	border-radius: 6em;
+	display: flex;
+}
+
+
+.heart-square{
+	width: 9em;
+	height: 9em;
+	background-color: red;
+	transform: rotate(45deg);
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
