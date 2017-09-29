@@ -3,10 +3,16 @@ $(document).ready(function(){
 
 		console.log("check for animation click");
 
-	$('.smalltriangle').click(function(){
-
-		$('.smalltriangle').toggleClass("animate");
-
+	$('.button').click(function(){
+		$('.smalltriangle').toggle(
+			function(){
+				$(this).removeClass('reverse');
+			    $(this).addClass('animate')
+			},
+			function(){
+				$(this).removeClass('animate')
+			    $(this).addClass('reverse');
+			});
 	});
 
 

@@ -1,10 +1,10 @@
 body { 
-	width: 120%;
-				   }
-.container {
+	width: 100%;
+}
+/*.container {
 	position: relative;
 	top: 100px;
-}
+}*/
 
 .smalltriangle {
 	top: 100px;
@@ -69,15 +69,32 @@ body {
 	position: relative;
 	float: left;
 }
+
+.stay{
+	position: fixed;
+}
+
+.button{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: rgba(255,0,0,0.5);
+}
+
+div.section{
+	float: right;
+}
+
 @media screen and (max-width: 1000px){
-	div .section{
-		position: absolute;
-	}
+
 	.circle {
 		position: absolute;
 		right: .5px;
-}
 	}
+}
 
 @media screen and (max-width: 480px) {
 	body {
@@ -120,6 +137,11 @@ body {
 .animate{
 	animation: fadeOutLeft 2s ease-in 1 forwards;
 }
+
+.reverse{
+	animation: fadeOutLeft 2s ease-in reverse 1 forwards;
+}
+
 
 .smalltriangle:hover{
 	cursor: pointer;

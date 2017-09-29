@@ -12,12 +12,18 @@ h1{
 }
 
 img{
-	width: 45%;
-	margin: 10px;
+ 	max-width: 100%; 
 }
 
 .photos{
-	flex-wrap: wrap;
+	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+}
+
+.chunk{
+	flex: 1;
+	min-width: 50%;
 }
 
 .right{
@@ -34,4 +40,10 @@ img{
 	top: 10em;
 	left: 50em;
 	z-index: 100;
+}
+
+@media screen and (max-width: 400px){
+	.chunk{
+		min-width: 100%;
+	}
 }
