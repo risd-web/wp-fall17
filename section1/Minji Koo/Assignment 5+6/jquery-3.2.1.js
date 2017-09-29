@@ -11,20 +11,7 @@
  *
  * Date: 2017-03-20T18:59Z
  */
-
- $("#button").click(function() {
-  $('.transform').toggleClass('transform-active');
-});
-$(function ()
-{
-    $('img').on('click', function ()
-    {
-        $(this).width(1000);
-    });
-});
 ( function( global, factory ) {
-
-	
 
 	"use strict";
 

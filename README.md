@@ -24,6 +24,7 @@ This three-session workshop combines the tactical skills needed to structure web
 * Assignment 2: Create a multi-page website
 	* Create a website that consists of at least 3 different pages, linking them together with relative paths. You should use a single stylesheet for all your pages.
 
+
 ### Week Two: Form
 >Week two encourages a different mindset, using code and the browser to discover designs as you make.  
 * Assignment 3: a)draw concrete objects using CSS shapes or b)repeat abstract shapes to create a pattern
@@ -39,12 +40,13 @@ This three-session workshop combines the tactical skills needed to structure web
 	* Use Media Queries to adapt your website at different screen-widths
 	* Incorporate at least one user-triggered event using jQuery
 
+
 ### Week Four
 >Putting it all together
-* From sketch to launch, logistics
-* Possible further explorations
+* From sketch to code
+* Review examples
 * Individual meetings
-
+* Possible explorations
 
 ## Software needed
 * Download [Sublime Text](https://www.sublimetext.com/3) or other HTML editor, such as [Atom](https://atom.io/)
@@ -66,6 +68,3 @@ This three-session workshop combines the tactical skills needed to structure web
 * 20% risk-taking/quality of end forms: you are expected to experiment, iterate and form innovate designs with the coding that you’ve been shown. Because work from previous sessions is available, you are able to reuse code, but in service of your own ideas and forms.
 * Missing one class without permission fails the course
 * Although we are “wired” throughout the workshop, avoid being plugged into Facebook, email, etc.
-
-## Diversity
-It is important to me that students from all diverse backgrounds and perspectives are well-served by this course, that students’ learning needs are addressed both in and out of class, and that the diversity students bring to this class are viewed as a resource, strength, and benefit. I strive to present materials and activities that challenge accepted canons and are respectful and representative of diversity: gender, sexual orientation, disability, age, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. Your suggestions about how to improve the value of diversity in this course are always encouraged and appreciated. Please let me know how I might improve the effectiveness of the course for you personally or for other students or student groups.

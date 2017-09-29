@@ -1,0 +1,33 @@
+.button{
+	float: left;
+	width:200px;
+	align-content: center;
+	padding: 1rem;
+	background: #83BCFF;
+	color: #DB3069;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.button:hover{
+	background: #ECCBD9;
+	color: #FF9F1C;
+}
+
+h1{
+/*	display: none;*/
+}
+
+.elementcontainer {
+	height: 80vh;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+}
+
+.reveal{
+/*	display: block;*/
+	background: #DABFFF;
+}
