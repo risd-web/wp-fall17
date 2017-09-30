@@ -11,6 +11,3 @@
 * Hyeon Noh
 * Tomiris Shyngyssova
 * Melissa Weiss
-* Chi Yang
-* Katherine Yoon
-* Grace Young
