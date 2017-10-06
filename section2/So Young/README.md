@@ -1,7 +1,7 @@
 # Web Programming Fall 2017: Section Two
 * Shiyu Bei
 * Xiao Chen
-* So Young Chun
+* SoYoung Chun
 * Sami Faustino
 * Samuel Guo
 * A.J. Hansen
