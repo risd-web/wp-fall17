@@ -1,7 +1,8 @@
 # Web Programming Fall 2017: Section Two
+
 * Shiyu Bei
 * Xiao Chen
-* SoYoung Chun
+* So Young Chun
 * Sami Faustino
 * Samuel Guo
 * A.J. Hansen
@@ -11,4 +12,4 @@
 * Libby Marrs
 * Katie McIntyre
 * Hyun Park
-* Nathan Young
+* Nathan Young.
