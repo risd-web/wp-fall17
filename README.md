@@ -73,5 +73,4 @@ This three-session workshop combines the tactical skills needed to structure web
 
 ## Diversity
 It is important to me that students from all diverse backgrounds and perspectives are well-served by this course, that students’ learning needs are addressed both in and out of class, and that the diversity students bring to this class are viewed as a resource, strength, and benefit. I strive to present materials and activities that challenge accepted canons and are respectful and representative of diversity: gender, sexual orientation, disability, age, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. Your suggestions about how to improve the value of diversity in this course are always encouraged and appreciated. Please let me know how I might improve the effectiveness of the course for you personally or for other students or student groups.
-Attendance
 
