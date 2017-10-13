@@ -1,0 +1,40 @@
+
+body{
+	color: #D3006E;
+	font-family: 'Futura', sans-serif;
+	padding-left: 30rem;
+	padding-right: 5rem;
+	background: #F3EBE0;
+
+
+
+}
+
+h1{
+	font-size: 5rem;
+	padding-left: 30rem;
+	padding-right: 30rem;
+	color: #73C6A3;
+	font-family: 'Times New Roman', serif;
+	line-height: 4rem;
+
+}
+
+h2{
+	font-size: 3rem;
+	line-height: 1rem;
+	color:#A3A1B8;
+	font-family: 'Times New Roman', serif;
+
+}
+
+ul{
+	font-size: 1rem;
+	color:#A3A1B0;
+	font-family:'Times New Roman',serif;
+	line-height 0.5;
+}
+
+
+
+
