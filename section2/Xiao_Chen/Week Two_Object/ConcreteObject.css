@@ -16,6 +16,7 @@
     background: rgb(255, 0, 0);
     border-radius: 250px;
     float: left;
+    position:fixed;
 }
 
 .circle2{
@@ -25,9 +26,11 @@
     background: rgb(255, 0, 0);
     border-radius: 250px;
     float: left;
+    position:fixed;
+    left:500px;
 }
-
 */
+
 
 #eyes{
 	margin: auto;
