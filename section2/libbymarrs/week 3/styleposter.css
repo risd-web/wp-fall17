@@ -1,0 +1,51 @@
+body{
+	background: grey;	
+}
+.circles{
+
+}
+
+.circle{
+width: 400px;
+height: 400px;
+float: left;
+margin: 20px;
+}
+
+.brown .circle{
+background: brown;
+border-radius: 50%;
+}
+
+.blue .circle{
+background: blue;
+border-radius: 50%;
+margin-right: 0em;
+}
+
+.blue, .brown{
+	overflow: auto;
+	mix-blend-mode: multiply;
+	opacity: 50%;
+}
+
+.levelone{
+	margin-left: 25em;
+}
+
+.leveltwo{
+	margin-left: 0em;
+	margin-right: -5em;
+}
+
+.overlap{
+	margin-top: -200px;
+	position: absolute;
+}
+
+.text{
+	margin-left: 0px;
+	margin-top: -600px;
+	font-family: Helvetica;
+	font-size: 2em;
+}
