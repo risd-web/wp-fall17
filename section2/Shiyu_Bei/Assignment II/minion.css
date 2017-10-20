@@ -8,9 +8,6 @@ body{
     margin-top: 50px;
     width: 150px;
 }
-#minion {
-    position: relative;
-}
 
 #face {
 	position: absolute;
@@ -81,10 +78,10 @@ body{
 #hidden {
 	background: black;
 	height: 400px;
-	width: 600px;
+	width: 1000px;
 	position: fixed;
 	bottom:0px;
-	left: 300px;
+	left: 0px;
 }
 
 
