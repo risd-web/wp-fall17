@@ -8,8 +8,20 @@
 #triangle2 {
 	width: 0;
 	height: 0;
-	border-bottom: 800px solid red;
+	border-bottom: 800px solid rgba(255, 235, 59, 0.5);
 	border-left: 800px solid transparent;
 	position: relative;
 	bottom: 400px;
+}
+
+
+h1{
+	font-size: 3em;
+}
+
+#rotate{
+	transform: rotate(-45deg);
+	position: absolute;
+	right: 600px;
+	top: 100px;
 }

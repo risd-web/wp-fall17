@@ -1,5 +1,5 @@
 body{
-	/*background: black;*/
+	background: black;
 	margin-top: 30px;
 }
 
@@ -84,7 +84,7 @@ body{
 	width: 600px;
 	position: fixed;
 	bottom:0px;
-	left: 190px;
+	left: 300px;
 }
 
 
