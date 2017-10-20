@@ -1,0 +1,135 @@
+body{
+	background: black;
+	margin-top: 30px;
+}
+
+.object {
+    margin: auto;
+    margin-top: 50px;
+    width: 150px;
+}
+#minion {
+    position: relative;
+}
+
+#face {
+	position: fixed;
+	height: 200px;
+	width: 200px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+    background: #ffe500;
+}
+
+.float1 {
+	float:left;
+}
+
+.bond {
+	position: relative;
+	top: 82px;
+	height:15px;
+	width: 36px;
+	background: black;
+}
+
+#reyes {
+	position: relative;
+    top: 60px;
+}
+
+.glasses {
+    height: 64px;
+    width: 64px;
+	border-radius: 50%;
+	background: grey;
+}
+
+.white {
+    height: 56px;
+    width: 56px;
+	border-radius: 50%;
+	background: white;
+	position: relative;
+	top: 4px;
+	left: 4px;
+}
+
+.black {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: black;
+	position:relative;
+	top: 18px;
+    left: 12px;
+}
+
+#leyes {
+	position: relative;
+    top: 60px;
+}
+
+#middle {
+	position: absolute;
+	top:200px;
+	width: 200px;
+	height: 10000px;
+	background: #ffe500;
+}
+
+#hidden {
+	background: black;
+	height: 400px;
+	width: 600px;
+	position: fixed;
+	bottom:0px;
+	left: 300px;
+}
+
+
+#cloth4 {
+	position: fixed;
+	bottom:200px;
+	height: 200px;
+	width: 200px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+    background:rgb(64, 98, 144);
+}
+
+#bottom {
+	position: fixed;
+	bottom:300px;
+	height: 100px;
+	width: 200px;
+    background: #ffe500;
+}
+
+#cloth1 {
+	position: relative;
+	top: 5px;
+	width: 36px;
+	height: 15px;
+	transform: rotate(15deg);
+	background:rgb(64, 98, 144)
+}
+
+#cloth2 {
+	position: relative;
+	top: 10px;
+	width: 128px;
+	height: 90px;
+	background:rgb(64, 98, 144)
+}
+
+#cloth3 {
+	position: relative;
+	top: 5px;
+	width: 36px;
+	height: 15px;
+	transform: rotate(-15deg);
+	background:rgb(64, 98, 144)
+}
+
+
