@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	font-family: sans-serif;
+	color:white;
+	}
+
+body {
+	background-color:blue;
+}
+
+nav {
+	margin: 50px 0;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	}
+
+nav a {
+	display:block;
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute;
+	margin-left:-80px;
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	position: relative;
+	background-color: green;
+	display: list-item;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' '; }
+li > a:only-child:after { content: ''; }
+
+
+
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item {
+	color:pink;
+	font-size: 250px;
+	border:1px solid black;
+	background-color: red;
+	width:300px;
+	flex-shrink: 1;
+}
+
+
+#two {
+	background-color: yellow;
+	order: -1;
+	flex-grow: 1;
+}
+
+.text {
+	width:900px;
+	background-color: black;
+	margin:0 auto;
+}
+
+.column {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+}
+
+	#four{
+	border-radius: 50%;
+	height:300px;
+	overflow: hidden;
+
+	}
+
+	#four:hover {
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+		opacity: .5;
+	}
+	#four img {
+		margin-left:-100px;
+		opacity: .8;
+	}
+
+
+
+
+@media screen and (max-width: 900px){
+	body {
+		background-color: black;
+	}
+	.column {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+
+	}
+
+}
+
