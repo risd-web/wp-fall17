@@ -27,7 +27,6 @@ div{
 	border-radius: 50%;
 	background-blend-mode: multiply;
 	margin: 20px;
-	float: right;
 	border-right: 80px solid transparent;
 	border:80px solid transparent; 
 	position: right
@@ -60,7 +59,7 @@ div{
 div{ 
 	width: 200px
 	height:60px; 
-	float: right
+	float: left
 }
 
 .triangle2 div:nth-child(3n) {
@@ -73,4 +72,10 @@ div{
 	border-left: 40px solid #ffe4a0;
 	background-blend-mode: multiply;
 	margin: 20px;
+}
+
+div{ 
+	width: 200px
+	height:60px; 
+	float: right
 }
