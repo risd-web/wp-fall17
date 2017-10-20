@@ -1,0 +1,15 @@
+#triangle1 {
+	width: 0;
+	height: 0;
+	border-bottom: 800px solid rgba(0, 173, 197, 0.5);
+	border-right: 800px solid transparent;
+}
+
+#triangle2 {
+	width: 0;
+	height: 0;
+	border-bottom: 800px solid red;
+	border-left: 800px solid transparent;
+	position: relative;
+	bottom: 400px;
+}
