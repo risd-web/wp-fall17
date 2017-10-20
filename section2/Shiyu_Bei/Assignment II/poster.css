@@ -21,7 +21,7 @@ h1{
 
 #rotate{
 	transform: rotate(-45deg);
-	position: absolute;
-	right: 600px;
-	top: 100px;
+    position: fixed;
+    left: 400px;
+    top: 100px;
 }
