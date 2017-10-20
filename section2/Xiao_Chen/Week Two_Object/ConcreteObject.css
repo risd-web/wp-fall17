@@ -1,12 +1,33 @@
 
-
-
-
 .object{
     margin: auto;
     margin-top: 50px;
 }
 
+.float{
+	float:left;
+}
+
+/*
+.circle1{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: rgb(255, 0, 0);
+    border-radius: 250px;
+    float: left;
+}
+
+.circle2{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: rgb(255, 0, 0);
+    border-radius: 250px;
+    float: left;
+}
+
+*/
 
 #eyes{
 	margin: auto;
@@ -15,6 +36,7 @@
 	background: rgba(255, 0, 0, 0);
 	border-radius: 200px;
     overflow: hidden;
+
   }
 
 
@@ -51,9 +73,6 @@
 	top: 5px;
 }
 
-.float{
-	float:left;
-}
 
 .eye1{
 	margin: auto;

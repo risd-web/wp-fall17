@@ -1,0 +1,47 @@
+body{
+	background-color: white;
+}
+
+h1{
+	font-family: helvetica;
+	font-size: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+
+#flexbox .name{
+	opacity: 0.8;
+	mix-blend-mode: screen;
+}
+
+.widerect {
+	width:100px;
+	height:200px;
+	background: red;
+}
+
+.blue {
+	background: blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+}
+
+.blue .circle1 {
+	margin-left: -60px;
+}
+
+.blue .circle2 {
+	margin-top: 80px;
+}
+
+.yellowtri {
+	width: 0px;
+	height: 0px;
+	border-top:180px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid yellow;
+}
+
+
