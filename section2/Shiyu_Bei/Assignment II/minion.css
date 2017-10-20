@@ -13,7 +13,7 @@ body{
 }
 
 #face {
-	position: fixed;
+	position: absolute;
 	height: 200px;
 	width: 200px;
 	border-top-left-radius: 50%;
