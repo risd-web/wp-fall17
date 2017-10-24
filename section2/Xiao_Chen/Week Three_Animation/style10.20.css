@@ -1,0 +1,59 @@
+
+
+.button{
+	padding: 2rem 3rem;
+	background: green;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+
+h1{
+/*	display: none;*/
+}
+
+.elementcontainer {
+	height: 80vh;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+}
+
+
+.element {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background-color: blue;
+}
+
+.element:hover{
+	cursor: pointer;
+}
+
+
+.reveal{
+/*	display: block;*/
+	background: yellow;
+}
+
+.play{
+	animation: wheel 1s ease-in-out alternate infinite;
+}
+
+@keyframes wheel {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
