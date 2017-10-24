@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;  
+}
+
+body{
+  color: #fff;
+}
+
+#parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  min-height: 100px;
+  background: black;
+  flex: 1;
+  min-width: 25%;
+  border: 5px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 700px) {
+  .child {
+    min-width: 33.33%; 
+    background: orange;
+    border: 5px solid white;
+  }
+}
+
+@media (max-width: 400px) {
+  .child {
+    min-width: 50%; 
+    background: black;
+  }
+}

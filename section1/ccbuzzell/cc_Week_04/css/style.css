@@ -1,0 +1,170 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	}
+
+body {
+	background-color:white;
+	font-family: sans-serif;
+	/*background-color: #ddd;*/
+}
+
+header {
+	color:red;
+	font-size: 3em;
+	text-align: center;
+}
+
+.container {
+	/*PLAY WITH THIS--------------------*/
+	display: flex;
+	flex-wrap: wrap;
+	margin:auto;
+	padding: 1em 1em;
+}
+
+.I-container, .heart-container, .Y-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0% 0%;
+	flex-grow: 1;
+
+	
+}
+
+.I-container{
+}
+
+.heart-container{
+	position: relative;
+	flex-grow: 1;
+	}
+	
+
+
+.circle {
+	width: 3em;
+	height: 3em;
+	background-color: black;
+	border-radius: 3em;
+	display: flex;
+	flex-grow: 1;
+}
+
+.c-top {
+	margin-top: 3em;
+}
+
+.circle-neg {
+	width: 3em;
+	height: 3em;
+	background-color: white;
+	border-radius: 3em;
+	display: flex;
+	position: relative;
+}
+.bar {
+	width: 9em;
+	height: 6em;
+	margin: 0 -1.5em;
+	background-color: white;
+	display: flex;
+
+
+}
+
+.bar-top{
+border-bottom: 3em solid black;
+
+}
+
+.bar-bottom {
+	border-top: 3em solid black;
+}
+
+
+.horz-bar{
+	width: 58%;
+	height: 12em;
+	background-color: white;
+	border-right: 3em solid black;
+	display: flex;
+	animation-name: i-spin;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	
+}
+
+.hb-2{
+	border-left: 3em solid black;
+	border-right: none;
+
+}
+
+@keyframes i-spin {
+	0% {width:20%;  }
+	100% {width:80%;  }
+}
+
+
+
+
+.heart-circle{
+	width: 12em;
+	height: 12em;
+	background-color: red;
+	border-radius: 6em;
+	position: absolute;
+	margin-top:2.5em;
+}
+
+.hc-left{
+	left:10%;
+
+}
+
+.hc-right{
+	right:10%;
+
+}
+
+.heart-square{
+	width: 12em;
+	height: 12em;
+	background-color: red;
+	transform: rotate(45deg);
+	display: flex;
+	margin-top:26%;
+
+}
+
+.heart-spin{
+	background-color:blue;
+}
+
+
+.hs-left{
+	margin-left:26%;
+
+}
+
+.hs-right{
+	margin-left:-47%;
+
+}
+
+
+.black {
+	background-color: black;
+	border: white;
+}
+
+.white {
+	background-color: white;
+	border: black;
+}
+
+
+
+
+
