@@ -1,0 +1,100 @@
+*{
+
+	margin: 0 auto;
+	background-color:#afafda
+}
+
+@keyframes col-shift {
+	0% {
+		background-color: #e400ff;
+	}
+	50%  {
+		background-color: #c6afda;
+	}
+	100%{
+		background-color: ##8de44e;
+		transform: rotate(.2);
+	}
+}
+}
+.container{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	width: 100vw;
+	height:100vh;
+	background: transparent;
+}
+
+h1{
+		font-family: 'Raleway', sans-serif;
+		background:#ffa1c7;
+		color: white;
+		padding: 20px;
+		margin:30px;
+		border:3px transparent;
+		border-radius: 5px;
+	
+
+}
+.top-trianges{
+	display: flex;
+}
+
+@keyframes spin {
+	0% {
+		transform: skew(.4);
+		background-color: #e400ff;
+		border-radius:50%;
+	}
+	50%  {
+		background-color: ##00ff1f;
+	}
+	100%{
+		transform: scale(3);
+	}
+}
+
+.bottom-tirangles{
+	display: flex;
+}
+.triangle-one{
+	width:0;
+	height: 0;
+	border-right: 75px solid transparent;
+	border-left:75px solid transparent;
+	animation: spin 2s ease-in infinite;
+}
+
+.triangle-two {
+	margin-left: -75px
+	width:0;
+	height:0;
+	border-right: 100px solid transparent;
+	border-left:100px solid transparent;
+	border-bottom: 100px solid #ffc846;
+	animation: spin 2s ease-in infinite;
+	
+}
+.triangle-three{
+	margin-left: -75px
+	width:0;
+	height: 0;
+	border-right: 75px solid transparent
+	border-left:75px solid transparent;
+	border-bottom: 100px solid #f4ff46;
+	animation: spin 2s ease-in infinite;
+
+}
+
+.triangle-four:{
+	width:0;
+	height: 0;
+	border-right: 150px solid transparent;
+	border-left:150px solid transparent;
+	border-top: 150px solid #0d47a1;
+	animation: spin 2s ease-in infinite;
+}
+
+
