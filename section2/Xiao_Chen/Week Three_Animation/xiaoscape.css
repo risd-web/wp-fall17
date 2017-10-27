@@ -1,0 +1,50 @@
+.title{
+	overflow: auto;
+}
+
+.box{
+	width:200px;
+	height: 30px;
+	background: rgba(158, 158, 158, 0.11);
+	margin-right: 10px;
+}
+
+.title1, .image1{
+	display:flex;
+}
+
+h1{
+	font-size: 3em;
+	letter-spacing: 1em;
+	text-align: center;
+}
+
+h2{
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.box2{
+	width:200px;
+	height:600px;
+	background: rgba(158, 158, 158, 0.02);
+	margin-right: 10px;
+}
+
+.homepage{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%
+}
+
+.image{
+	max-width: 100%;
+	max-height:100%;
+}
+
+.box:hover{
+
+	background-color:#e91e63;
+	color:white;
+	font-weight: 900;
+}

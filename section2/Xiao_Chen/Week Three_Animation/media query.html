@@ -3,6 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>media query</title>
+<link rel="media" media="screen and (max-width: 600px)" href="media query.css" />
+<script src="media query.js"></script>
 <style>
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
     padding: 0;
@@ -44,6 +46,22 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     -ms-transition: width 1s ease;
     transition: width 1s ease;
 }
+
+
+.middlebox:hover{
+    cursor: pointer;
+}
+
+
+.reveal{
+/*  display: block;*/
+    background: yellow;
+}
+
+.play{
+    animation: wheel 1s ease-in-out alternate infinite;
+}
+
 .rightBox{
     background: #fffab1;
 }
