@@ -10,31 +10,30 @@ body{
 
 
 .square1{
-	width: 450px;
-	height: 450px;
+	width: 250px;
+	height: 250px;
 	background: white;
 	float: left;
-
+	animation: rightleft 1s ease-out 1 forwards;
 }
 
 .square2{
-	width: 450px;
-	height: 450px;
+	width: 250px;
+	height: 250px;
 	background: white;
 	float: left;
-
+	animation: rightleft 2s ease-out 1 forwards;
 }
 
 
 .square{
-	width: 450px;
-	height: 450px;
+	width: 250px;
+	height: 250px;
 	background: white;
 	clear: left;
+	animation: rightleft 1.4s ease-out 1 forwards;
 	}
-.box{
-	margin-left: 30px;
-}
+
 .box1{
 	width: 30px;
 	height: 10px;
@@ -43,7 +42,8 @@ body{
 	margin-left: 600px;
 	position: absolute;
 	z-index: 10;
-	margin-top: 454px;
+	margin-top: 204px;
+	animation: updown 1.7s ease-out 1 forwards;
 }
 
 .box2{
@@ -52,13 +52,60 @@ body{
 	background: white;
 	z-index: 5;
 	position: absolute;
-	margin-top: 443px;
+	margin-top: 193px;
 	margin-left: 609px;
+	animation: updown 3s ease-out 1 forwards;
+}
 
+.red{
+	width: 10px;
+	height: 10px;
+	margin-top: 204px;
+	margin-left: 609px;
+	background: green;
 }
 
 
 h2{
-	margin-top: 450px;
+	margin-top: 200px;
 	margin-left: 500px;
+	animation: leftright 1s ease-out 1 forwards, white 3s ease-in 1 forwards;
 }
+
+
+@keyframes updown{
+	0%{
+		transform: translateY(-90vh);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+@keyframes rightleft{
+	0%{
+		transform: translateX(90vw)	
+	}
+	100%{
+		transform: translateX(0)
+	}
+}
+
+@keyframes leftright{
+	0%{
+		transform: translateX(-50vw);
+	}
+	100%{
+		transform: translateX(0);
+		color: white;
+	}
+}
+
+@keyframes white{
+
+	100%{
+		 color: white;
+	}
+}
+
+

@@ -16,7 +16,7 @@ h1{
 	padding-right: 30rem;
 	color: #73C6A3;
 	font-family: 'Times New Roman', serif;
-	line-height: 4rem;
+	line-height: 4.5rem;
 
 }
 
@@ -37,4 +37,16 @@ ul{
 
 
 
+.gradient {
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
+	.circle {
+	background: #f4ca16;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
