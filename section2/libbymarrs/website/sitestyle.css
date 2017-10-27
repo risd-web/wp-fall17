@@ -27,14 +27,17 @@ h1{
 
 .child{
 	min-height: 200px;
-	border: 0.1px dotted red;
-	flex:.5,1,1,1;
+/*	border: 0.1px dotted red;*/
+	flex:1;
 	min-width: 25%
 }
 
 #stargif{
 	float: right;
+}
 
+#stargif img{
+	width: 100%;
 }
 .star{
 
