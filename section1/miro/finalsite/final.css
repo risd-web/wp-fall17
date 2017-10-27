@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#video-background {
+
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+a {
+
+  color:white;
+  text-decoration: none;
+  border-style: dotted;
+  border-color: white 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+
+}
+
+h1 {
+  
+  top: 60%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: orange;
+  border-style: solid 2px white;
+  font-family: helvetica;
+  margin-left: 26em;
+}
+
+
+h2 {
+  margin-top: 1.5em;
+  margin-left: 1em;
+  text-align: left;
+  top: 60%;
+  width: 100%;
+  font-size: 72px;
+  letter-spacing: 3px;
+  color: white;
+  font-family: helvetica;
+  
+}
+
+h3 {
+  top: 60%;
+  width: 100%;
+  font-size: 24px;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: yellow;
+  border-style: solid 2px white;
+  font-family: helvetica;
+  margin-left: 42em;
+  padding-top: 0em;
+  margin-top: -1em;
+
+}
+
+
+
+a:hover { 
+    background-color: yellow;
+    color:orange;
+}

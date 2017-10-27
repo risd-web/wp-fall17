@@ -1,0 +1,50 @@
+body{
+	background: #ccc
+	height: 200vh;
+	font-family: helvetica, sans-serif;
+	font-size:1rem;
+}
+
+a{
+	font-size:2rem;
+	color: blue;
+margin-right: 200px
+margin-bottom:200px
+margin-left: 200px
+margin-top: 200px;}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h1{
+	color:black
+	font-size:10pt;
+	padding: 1rem;
+	margin: 3rem
+	width: 300px;
+}
+
+h3{color:white
+	font-size: 15pt;
+border-style:
+height: 200px
+width: 200px;}
+
+.box1{
+	float:left;}
+
+.box2{
+	width: 500px
+	height: 500px;
+	float: center;
+	background: #000;
+	margin-right: 200px
+	margin-bottom: 200px
+	color: white;
+	font-size: 3rem;
+}
+
+.box3{
+	float:right;
+}

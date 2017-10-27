@@ -1,0 +1,61 @@
+
+.graphics{
+	overflow: auto;
+}
+.line{
+	width: 150px;
+	height: 30px;
+	background: rgba(233, 30, 99, 0.5);
+	margin-bottom: 50px;
+}
+
+.angle-left .line{
+	transform: rotate(45deg) skew(45deg);
+	animation: leftbar 2s ease-in alternate infinite;
+}
+
+.angle-right .line{
+	transform: rotate(135deg) skew(135deg);
+	animation: rightbar 2s ease-in alternate infinite;
+}
+
+
+.chevron{
+	overflow: hidden;
+	float: left;
+	width: 250px;
+}
+.angle-left, .angle-right{
+	float: left;
+	margin: -22px;
+	margin-bottom: 10px;
+}
+
+.yellow{
+	margin-left: -38px;
+}
+
+.yellow .line{
+	background: rgba(255, 235, 59, 0.5);
+}
+
+
+@keyframes leftbar{
+	0%{
+		transform:rotate(45deg) skew(45deg) translateY(0);
+	}
+	100%{
+		transform:rotate(45deg) skew(45deg)translateY(60vh);
+	}
+}
+
+@keyframes rightbar{
+	0%{
+		transform:rotate(135deg) skew(135deg) translateY(0);
+	}
+	100%{
+		transform:rotate(135deg) skew(135deg)translateY(60vh);
+	}
+
+
+}
