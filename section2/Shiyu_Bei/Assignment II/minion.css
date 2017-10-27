@@ -1,5 +1,5 @@
 body{
-	/*background: black;*/
+	background: black;
 	margin-top: 30px;
 }
 
@@ -8,12 +8,9 @@ body{
     margin-top: 50px;
     width: 150px;
 }
-#minion {
-    position: relative;
-}
 
 #face {
-	position: fixed;
+	position: absolute;
 	height: 200px;
 	width: 200px;
 	border-top-left-radius: 50%;
@@ -81,10 +78,10 @@ body{
 #hidden {
 	background: black;
 	height: 400px;
-	width: 600px;
+	width: 1000px;
 	position: fixed;
 	bottom:0px;
-	left: 190px;
+	left: 0px;
 }
 
 

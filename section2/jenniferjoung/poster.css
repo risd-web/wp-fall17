@@ -89,3 +89,18 @@ p {
 	margin:auto;
 	padding: 0px;
 }
+
+
+@media screen and (max-width:950px){
+	body{
+		padding: 3em;
+	}
+
+	h1{
+		font-size: 30vw;
+	}
+}
+
+
+
+

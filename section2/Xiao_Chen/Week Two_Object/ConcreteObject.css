@@ -2,32 +2,40 @@
 .object{
     margin: auto;
     margin-top: 50px;
+    position:relative;
+    top:400px;
 }
 
 .float{
 	float:left;
 }
 
-/*
+
 .circle1{
     margin: auto;
     width: 500px;
     height: 500px;
-    background: rgb(255, 0, 0);
+    background: white;
     border-radius: 250px;
     float: left;
+    position:fixed;
+    left:-40px;
+    top:100px;
 }
 
 .circle2{
     margin: auto;
     width: 500px;
     height: 500px;
-    background: rgb(255, 0, 0);
+    background: white;
     border-radius: 250px;
     float: left;
+    position:fixed;
+    left:360px;
+    top:100px;
+
 }
 
-*/
 
 #eyes{
 	margin: auto;
@@ -102,5 +110,10 @@
 	border-radius: 30px;
 	position:relative;
 	top:16px;
+}
+
+.righteye{
+	position: relative;
+	top:300px;
 }
 
