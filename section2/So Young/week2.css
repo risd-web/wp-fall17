@@ -1,0 +1,88 @@
+
+
+#house{
+	position: relative;
+	margin: auto;
+	width: 30%;
+	margin-top: 400px;
+}
+#top{
+	width:90px;
+/*	position:fixed;
+	margin-left:10px;*/
+}
+#roof{
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid #99574E;
+}
+#chimney{
+	width: 40px;
+	height: 80px;
+	background: grey;
+	margin-left: 15px;
+	margin-top: -85px;
+	z-index: -5;
+	position: absolute;
+}
+
+#bottom{
+	width:90px;
+}
+
+#base{
+	width: 200px;
+	height: 100px;
+	background: #C9BFFF;
+}
+
+#door{
+	width: 40px;
+	height: 60px;
+	background: #78383D;
+	margin-left: 30px;
+    margin-top: -60px;
+}
+
+#hand{
+	background: #808080;
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	margin-left: 35px;
+	margin-top: -30px;
+}
+
+#window{
+	width: 40px;
+	height: 40px;
+	background: rgba(0, 108, 255, 0.48);
+	margin-left: 125px;
+    margin-top: -38px;
+}
+#frame {
+  background: rgb(124, 139, 190);
+    height: 40px;
+    margin-left: 143px;
+    margin-top: -40px;
+    width: 5px;
+}
+#cross:after {
+    background: rgba(128, 128, 128, 0.52);
+    content: "";
+    height: 5px;
+    left: 125px;
+    position: absolute;
+    top: 158px;
+    width: 40px;
+}
+#moon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 24px 11px 0 0 rgba(255, 255, 0, 0.78);
+    margin-left: 400px;
+    margin-top: -350px;
+}

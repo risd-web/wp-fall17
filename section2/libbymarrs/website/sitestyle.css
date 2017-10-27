@@ -1,0 +1,116 @@
+
+html { 
+  background: url(1selfportrait.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	color: blue;
+	font-family: 'Nosifer'
+}
+h1{
+	max-width: 100px;
+	text-align: center;
+	margin: auto;
+/*	margin-left: 7em;
+	position: fixed;*/
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1250px;
+}
+
+.child{
+	min-height: 200px;
+/*	border: 0.1px dotted red;*/
+	flex:1;
+	min-width: 25%
+}
+
+#stargif{
+	float: right;
+}
+
+#stargif img{
+	width: 100%;
+}
+.star{
+
+}
+#star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   mix-blend-mode: color-burn;
+   width: 0px;
+   height: 0px;
+   border-right:  50px solid transparent;
+   border-bottom: 35px  solid red;
+   border-left:   50px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 40px solid red;
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -22.5px;
+   left: -32.5px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   mix-blend-mode: color-dodge;
+   top: 1.5px;
+   left: -52.5px;
+   width: 0px;
+   height: 0px;
+   border-right: 50px solid transparent;
+   border-bottom: 35px solid red;
+   border-left: 50px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+/*.star2{
+	transform: rotate(45deg);
+}*/
+section{
+	display: inline;
+	width: 1000px;
+}
+
+@media screen and (max-width: 1000px) {
+  .child {
+    min-width: 95%; 
+    background: red;
+    border: 2px dashed white;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .child {
+    min-width: 100%;
+  }
+}
