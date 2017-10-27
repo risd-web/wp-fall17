@@ -1,0 +1,107 @@
+body{
+	background: yellow;
+	height: 200vh;
+	width: 800px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	color: blue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#text{
+	display: flex;
+	font-family: helvetica;
+	padding-bottom: 3em;
+}
+
+.col{
+	flex: 1;
+	padding-right: 10px;
+}
+
+.large{
+	flex: 2;
+	padding-right: 10px;
+}
+
+.box{
+	float: left;
+	background: none;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left:200px;
+	color: black;
+	font-size: 5rem;
+	display: flex;
+	padding-bottom: 0
+	margin-top:100;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+
+.up{
+	transform: translate(0, -40px);
+	animation: move 3.5s linear 0.2s infinite;
+}
+
+
+.uptwo{
+	transform: translate(0, -40px);
+}
+
+.upthree{
+	transform: translate(0, -40px);
+}
+
+.box:hover{
+	cursor: pointer;
+}
+
+.question{
+	position: relative;
+	top: 5px;
+}
+
+@keyframes move {
+0% {
+	transform: rotate(0deg);
+}
+100% {
+	transform: rotate(360deg);
+}
+}
+
+@keyframes movetwo {
+0% {
+	transform: rotate(0deg);
+}
+100% {
+	transform: rotate(-360deg);
+}
+}
+
+.play{
+	animation: colorchange 1s ease-in-out alternate infinite;
+}
+
+
+@keyframes colorchange {
+0% {
+	color: white;
+}
+100% {
+	color: pink;
+}
+0% {
+	transform: rotate(0deg);
+}
+100% {
+	transform: rotate(-360deg);
+}
+}

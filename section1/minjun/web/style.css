@@ -1,0 +1,236 @@
+body{
+	font-family: futura;
+	font-size: 1em;
+	background: gradient;
+	background:
+	linear-gradient(
+		to right,
+		#0B7693,
+		#fc6d00);
+}
+
+a{
+font-size: 8pt;
+text-decoration: none;
+}
+
+a:hover{
+	font-size: 10pt;}
+
+h1{
+	color: white;
+	font-size: 2em;
+	margin-bottom: 1em;
+	float: left,border-bottom;
+}
+
+h2{
+	color:white;
+	font-size:1em;
+	padding: 1em;
+	margin-bottom: 1em;
+	width: 300px;
+	float: left, border-bottom;}
+
+h3{
+	color:white;
+	font-size: 10pt;
+	}
+
+h4{
+	color: black;}
+
+.orange{
+	background:#fc6d00;
+}
+
+.gray{
+	background:#7B9CC6;
+}
+
+.brown{
+	background:#917054;
+}
+
+.blue{
+	background:#0B7693;
+}
+
+
+.div{
+	display:inline;
+	width: 100px;
+}
+
+.box{
+	float:left;
+	line-height: 95px;
+	text-align: center;
+	width:100px;
+	height:100px;
+	background: #f4ca16;
+	height: 100px;
+	width: 100px;
+	font-size: 1em;
+	margin-left: 5px;
+	margin-right: 5px;}
+
+.box:hover{
+	background: green;
+	transition: background-color 0.1s ease-in 0.1s;
+}
+
+.triangle{	
+	float:left;
+	text-align: center;
+	line-height: 95px;
+	width: 0;
+	height: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #f4ca16;}
+
+.triangle:hover{
+	background: blue;
+	transition: background-color 0.1s ease-in 0.1s;;
+}
+
+.circle {
+	float:left;
+	text-align: center;
+	line-height: 95px;
+	background: #f4ca16;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.allcircles{
+	display: flex;
+	float: left;
+	margin-top: 30px;
+}
+
+.circle-small{
+	background: #ffffff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin-right: 100px;
+}
+
+.circle:hover{
+	background:red;
+	transition: background-color 0.1s ease-in 0.1s;
+}
+
+circle {
+	mix-blend-mode: screen;
+}
+
+.isolate{
+	isolation: isolate;
+}
+
+#triangle-down{
+	float: left;
+	text-align: center;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid #f4ca16;
+	margin-left:5px;
+	margin-right:5px;}
+
+#heart {
+	float: left;
+    width: 100px;
+    height: 90px;
+    margin: ;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+
+#triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid red;
+	border-left: 100px solid transparent;
+}
+
+
+#talkbubble {
+   width: 120px;
+   height: 80px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #f4ca00;
+  border-left: 50px solid #f4ca00;
+  border-bottom: 50px solid #f4ca00;
+  border-radius: 50px;
+  float: left;
+ }
+
+.container{
+	overflow: auto;
+}
