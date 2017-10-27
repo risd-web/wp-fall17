@@ -2,6 +2,29 @@ body{
 	background:#3D3D3D;
 }
 
+#purple{
+	background: #BE50FF;
+}
+
+#green{
+	background: #A2FF50;
+}
+
+button{
+
+}
+#clickme{
+	width: 200px;
+	margin: auto;
+}
+
+img{
+	display: block;
+	margin: auto;
+	margin-top: 250px; 
+	width: 500px;
+}
+
 h1{
 	font-family: 'helvetica', sans-serif;
 	font-size:3rem;
