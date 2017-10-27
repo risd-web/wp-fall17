@@ -8,8 +8,8 @@ console.log("hello from external script.js"); //just to check that your script i
 
 $(document).ready(function(){
 
-	$("#click").click(function(){
-		$("#click").fadeTo("slow",0);
+	$(".block div:nth-child(6)").click(function(){
+		$(this).fadeOut("slow");
 	});
 
 });
