@@ -1,0 +1,46 @@
+
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 400px solid #EBD44C;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.crust {
+  z-index: 300;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #D6934D;
+  border-radius: 0 0 80px 80px;
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+  }
+  &:before {
+    z-index: 200;
+    left: 7px;
+    top: 0;
+    border-left: 43px solid transparent;
+    border-right: 43px solid transparent;
+    border-bottom: 86px solid $cheese;
+    border-radius: 0 0 80px 80px;
+  }
+  &:after {
+    z-index: 100;
+    left: 4px;
+    top: 4px;
+    border-left: 46px solid transparent;
+    border-right: 46px solid transparent;
+    border-bottom: 86px solid #A82B2B;
+    border-radius: 0 0 80px 80px;
+  }
+}
