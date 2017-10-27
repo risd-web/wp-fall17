@@ -29,6 +29,9 @@
   .block div:nth-child(odd){
   	background: blue;
   }
+  .block div{
+    min-width: 20%;
+  }
 
 #click {
   	background: red;
