@@ -16,7 +16,11 @@ h3{
 
 p{
 	line-height: 1.2;
-	margin: 0;
+    margin-bottom: 3rem;
+    width: 80%;
+    border: 3px solid #c3a3a3;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 .noindent{
 	color: black;
