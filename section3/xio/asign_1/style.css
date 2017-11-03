@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700');
+
+
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	background-image: url('http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1498244283/los-angeles-hollywood-hills-SEELALA0617.jpg?itok=8T-9-Y-g');
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Archivo Black', sans-serif;
+	color:white;
+	text-align: center;
+	position: relative;
+	top:270px;
+	font-size: 65px;
+}
+
+p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 20px;
+	color:white;
+	text-align: center;
+	position: relative;
+	top:225px;
+}
+
