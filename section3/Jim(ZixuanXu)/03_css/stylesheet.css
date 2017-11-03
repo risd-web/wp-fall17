@@ -5,6 +5,7 @@ body{
 	background:rgb(165, 163, 212);
 	font-size: 17px;
 	font-family: 'Open Sans Condensed ',monospace;
+	color: rgb(82, 75, 30);
 }
 
 h3{
@@ -16,10 +17,9 @@ h3{
 p{
 	line-height: 1.2;
 	margin: 0;
-	text-indent: 3rem;
 }
 .noindent{
-	text-indent:0;
+	color: black;
 }
 
 #intro{
