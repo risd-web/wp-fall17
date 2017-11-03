@@ -1,0 +1,20 @@
+body{
+	background: #ebdec6;
+}
+
+h1{
+	font-family: 'Bodoni', serif;
+	font-size:3rem;
+	color:#990000;
+	margin-top:300px;
+	text-align: center;
+
+}
+h2{
+	font-family: 'Bodoni', serif;
+	font-size:1rem;
+	color:white;
+	position: absolute;
+	left: 950px;
+	bottom: 420px;
+}

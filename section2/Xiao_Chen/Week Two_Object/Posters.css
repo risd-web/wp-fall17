@@ -1,0 +1,215 @@
+body{
+	background: white;
+}
+
+.float{
+float:left;
+
+}
+
+.box1{
+	width: 150px;
+	height: 30px;
+	margin-bottom: 50px;
+	-webkit-transform: skew(45deg);
+	background: rgba(233, 30, 99, 0.5);
+}
+
+.box2{
+	width: 150px;
+	height: 30px;
+	margin-bottom: 50px;
+	-webkit-transform: skew(135deg);
+	background: rgba(233, 30, 99, 0.5);
+}
+
+.box3{
+	width: 150px;
+	height: 30px;
+	margin-bottom: 50px;
+	-webkit-transform: skew(45deg);
+	background: rgba(255, 235, 59, 0.5);
+}
+
+.box4{
+	width: 150px;
+	height: 30px;
+	margin-bottom: 50px;
+	-webkit-transform: skew(135deg);
+	background: rgba(255, 235, 59, 0.5);
+}
+
+.box5{
+	width: 150px;
+	height: 30px;
+	margin-bottom: 50px;
+	-webkit-transform: skew(45deg);
+	background: rgba(33, 150, 243, 0.5);
+}
+
+.box6{
+	width: 150px;
+	height: 30px;
+	margin-bottom: 50px;
+	-webkit-transform: skew(135deg);
+	background: rgba(33, 150, 243, 0.5);
+}
+
+.array1{
+    transform:rotate(45deg);
+}
+
+.array2{
+	/*margin:auto;*/
+	
+	transform:rotate(135deg);
+}
+
+
+.arrayone{
+    position: fixed;
+    left: -30px;
+}
+
+
+.arraytwo{
+    position: fixed;
+    left: 76px;
+}
+
+.arraythree{
+    position: fixed;
+    left: 182px;
+}
+
+
+.arrayfour{
+    position: fixed;
+    left: 288px;
+
+}
+
+.arrayfive{
+    position: fixed;
+    left: 394px;
+}
+
+
+.arraysix{
+    position: fixed;
+    left: 500px;
+}
+
+.arrayseven{
+    position: fixed;
+    left: 606px;
+}
+
+
+
+.arrayoneabove{
+    position: fixed;
+    left: -30px;
+    top:-40px;
+}
+
+.arraytwoabove{
+    position: fixed;
+    left: 76px;
+    top:-40px;
+}
+
+.arraythreeabove{
+    position: fixed;
+    left: 182px;
+    top:-40px;
+}
+
+.arrayfourabove{
+    position: fixed;
+    left: 288px;
+    top:-40px;
+}
+
+.arrayfiveabove{
+    position: fixed;
+    left: 394px;
+    top:-40px;
+}
+
+.arraysixabove{
+    position: fixed;
+    left: 500px;
+    top:-40px;
+}
+
+.arraysevenabove{
+    position: fixed;
+    left: 606px;
+    top:-40px;
+}
+
+.yellow{
+    position: relative;
+    right: 88px;
+    mix-blend-mode: multiply;
+    overflow: auto;
+}
+
+.magneta{
+    position: relative;
+    mix-blend-mode: multiply;
+    overflow: auto;
+}
+
+.blue{
+    mix-blend-mode: multiply;
+    overflow: auto;
+}
+
+section{
+	width:734pt;
+}
+
+h1{
+	font-size: 5em;
+	margin:0em;
+}
+
+h2{
+	font-size:1.2em;
+}
+
+h3{
+	font-size:0.7em;
+}
+
+.title{
+	margin:70px;
+	margin-bottom: 0px;
+}
+
+
+.left{
+	float: left;
+	margin: 70px;
+	margin-top: 0px;
+}
+
+
+.right{
+	float: left;
+	margin: 70px;
+    margin-top: 0px;
+}
+
+.text{
+	position:absolute;
+    top: 500px;
+}
+
+
+
+
+
+

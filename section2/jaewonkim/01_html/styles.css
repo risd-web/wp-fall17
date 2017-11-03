@@ -1,0 +1,52 @@
+
+body{
+	color: #D3006E;
+	font-family: 'Futura', sans-serif;
+	padding-left: 30rem;
+	padding-right: 5rem;
+	background: #F3EBE0;
+
+
+
+}
+
+h1{
+	font-size: 5rem;
+	padding-left: 30rem;
+	padding-right: 30rem;
+	color: #73C6A3;
+	font-family: 'Times New Roman', serif;
+	line-height: 4.5rem;
+
+}
+
+h2{
+	font-size: 3rem;
+	line-height: 1rem;
+	color:#A3A1B8;
+	font-family: 'Times New Roman', serif;
+
+}
+
+ul{
+	font-size: 1rem;
+	color:#A3A1B0;
+	font-family:'Times New Roman',serif;
+	line-height 0.5;
+}
+
+
+
+.gradient {
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+	.circle {
+	background: #f4ca16;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
