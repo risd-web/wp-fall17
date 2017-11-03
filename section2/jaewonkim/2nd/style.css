@@ -1,0 +1,43 @@
+
+body{
+    background: black;
+}
+
+.wholecontain{
+    height:1200px; 
+    width:1200px;
+    margin: 10px 20px 10px auto;
+}
+
+svg .box {
+    fill:none;
+    stroke-width: 70;
+    z-index:-5;
+    mix-blend-mode:multiply;
+    animation: bounceIn 2s ease-in-out alternate infinite; 
+
+ }
+.isolate {
+    isolation: isolate;
+}
+
+
+#item{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    animation: bounceIn 2s ease-in-out alternate infinite; 
+}
+
+@keyframes bounceIn {
+    0% {transform: scale(0.4); 
+       fill:white;
+       background:;}
+    30%{transform: scale(1.5) rotate(30deg);}
+    80%{transform: scale(0.7);}
+    100%{transform: scale(1) rotate(90deg);
+        fill:255,240,4,0;}
+
+}
+
+
