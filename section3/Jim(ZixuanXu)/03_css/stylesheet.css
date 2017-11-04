@@ -17,6 +17,10 @@ h3{
 .description{
 	border:1px solid red;
 	flex:1;
+	min-width: 25%;
+}
+.wide {
+
 }
 #colums{
 	background: rgb(230,245,220);
