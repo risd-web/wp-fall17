@@ -79,9 +79,9 @@ h2:hover{
   width:400%;
   height:100%;
   position:relative;
-  -webkit-animation:slide 12s infinite;
-  -moz-animation:slide 12s infinite;
-  animation:slide 12s infinite;
+  -webkit-animation:slide 11s infinite;
+  -moz-animation:slide 11s infinite;
+  animation:slide 11s infinite;
 }
 .slider{
   width:25%;
