@@ -1,6 +1,6 @@
 
 html { 
-  background: url(1selfportrait.jpg) no-repeat center center fixed; 
+  background: url(stars.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,9 +12,12 @@ body{
 	font-family: 'Nosifer'
 }
 h1{
-	max-width: 100px;
+/*	max-width: 100px;*/
 	text-align: center;
-	margin: auto;
+/*  margin: auto;
+  padding-top: 15em;*/
+
+/*	margin: auto;*/
 /*	margin-left: 7em;
 	position: fixed;*/
 }
@@ -26,10 +29,13 @@ h1{
 }
 
 .child{
-	min-height: 200px;
+	/*min-height: 200px;*/
 /*	border: 0.1px dotted red;*/
 	flex:1;
-	min-width: 25%
+  margin: auto;
+  padding-left: 2em;
+	/*min-width: 25%*/
+
 }
 
 #stargif{
@@ -40,25 +46,28 @@ h1{
 	width: 100%;
 }
 .star{
-
+  background-image: url(https://media.giphy.com/media/xSVQgqlSTMXYs/giphy.gif) no-repeat;
+  background-size: contain;
 }
 #star-five {
    margin: 50px 0;
    position: relative;
-   display: block;
-   mix-blend-mode: color-burn;
+  color: #7b2126;
    width: 0px;
    height: 0px;
    border-right:  50px solid transparent;
-   border-bottom: 35px  solid red;
+   border-bottom: 35px  solid #7b2126;
    border-left:   50px solid transparent;
    -moz-transform:    rotate(35deg);
    -webkit-transform: rotate(35deg);
    -ms-transform:     rotate(35deg);
    -o-transform:      rotate(35deg);
 }
-#star-five:before {
-   border-bottom: 40px solid red;
+
+
+
+#star-five::before {
+   border-bottom: 40px solid #7b2126;
    border-left: 15px solid transparent;
    border-right: 15px solid transparent;
    position: absolute;
@@ -74,22 +83,26 @@ h1{
    -o-transform:      rotate(-35deg);
 
 }
-#star-five:after {
+#star-five::after {
    position: absolute;
    display: block;
-   mix-blend-mode: color-dodge;
+   color: #7b2126;
    top: 1.5px;
    left: -52.5px;
    width: 0px;
    height: 0px;
    border-right: 50px solid transparent;
-   border-bottom: 35px solid red;
+   border-bottom: 35px solid #7b2126;
    border-left: 50px solid transparent;
    -webkit-transform: rotate(-70deg);
    -moz-transform:    rotate(-70deg);
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
+}
+
+#star-five:hover, #star-five:hover::before, #star-five:hover::after{
+    border-bottom-color: yellow;
 }
 
 /*.star2{
@@ -114,3 +127,20 @@ section{
     min-width: 100%;
   }
 }
+
+.flash{
+  animation: color 5s alternate infinite;
+}
+
+@keyframes color {
+  0%{border-bottom-color: yellow}
+  50%{border-bottom-color: red}
+  100%{border-bottom-color: black;}
+}
+/*@keyframes color2 {
+  0%{background-color: green
+    margin-left:1em;}
+  50%{background-color: yellow}
+  100%{background-color: blue;
+    margin-left: 5em;}
+}*/
