@@ -8,7 +8,7 @@ body{
 	background: black;
 }
 img{
-	
+	display: block;
 	width: 600px;
 }
 a{
@@ -26,4 +26,8 @@ h2{
 	font-style: 'arial';
 
 	font-size: 20px;
+}
+.gif{
+	width: 300px;
+
 }
