@@ -3,20 +3,3 @@ body {
  margin-left: 0px;
 }
 
-
-
-.rectangle {
-  height: 400px;
-  width: 700px;
-  background-color:#FFB6C1;
-  float:left;
-}
-
-
-.rectangle2 {
-  height:400px;
-  width:700px;
-  background-color:#90EE90;
-  float:right;
-  padding-left: 32px;
-}
