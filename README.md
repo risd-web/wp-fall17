@@ -27,7 +27,9 @@ This three-session workshop combines the tactical skills needed to structure web
 
 ### Week Two: Form
 >Week two encourages a different mindset, using code and the browser to discover designs as you make.  
-* Assignment 3: a)draw concrete objects using CSS shapes or b)repeat abstract shapes to create a pattern
+* Assignment 3: Shapes
+	* a)draw concrete objects using CSS shapes
+	* b)repeat abstract shapes to create a pattern
 	* Play with CSS properties, positioning, z-index, overflows to "draw" in the browser
 * Assignment 4: Compose a web poster — use abstract shapes / grids
 	* Apply your understanding of "chunks" and sectioning to create a one-page layout with graphics and text. You may use Muller-Brockman posters as a guide, or one of your own. 
@@ -53,9 +55,6 @@ This three-session workshop combines the tactical skills needed to structure web
 * Join GitHub and  we'll add you to the team!
 * Download [GitHub Mac client](https://desktop.github.com/) and clone the [class repository](https://github.com/risd-web/wp-fall17)
 * Test in Google Chrome, Safari, and/or Firefox — assignments will be evaluated in Chrome
-* Use Slack for for class communications
-	* [Section One](https://join.slack.com/t/wpfall17/shared_invite/MjM3OTUzODE5MzE1LTE1MDQ4NDYxNjgtOTg3NzM1MmI0NQ) 
-	* [Section Two](https://join.slack.com/t/wp-fall17-2/shared_invite/enQtMjUyMTYwNTg2Mjg5LWMzNWEyOGI5ODNjY2RhMmY0YmE5MjQyOTRlMjE3MzhlODkzZDcyYjEzNTgwZWM5MWE2MmE4NzMxODEyZmE2Mzc)
 
 ## Resources
 * Clone/sync the [Demos Repository](https://github.com/risd-web/wp-demos)
