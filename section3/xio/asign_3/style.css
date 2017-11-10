@@ -1,5 +1,148 @@
-body {
- margin-top: 0px;
- margin-left: 0px;
+body{
+height:200px;
 }
 
+
+
+div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all brick divs nested WITHIN divs */
+			
+			div>.brick {  /* declarations */ }
+			/* brick classes with a direct parent div */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div+.brick {  /* declarations */ }
+			/* apply to brick class that comes right after div */
+
+			div~.brick {  /* declarations */ }
+			/* apply to brick class that comes after div, not necessarily immediately  */
+
+			.layer { 
+				width: 50px;
+				float: left;
+			}
+
+			.second{
+				margin-top: -50px;
+			}
+
+			.third{
+				margin-top: -100px;
+			}
+
+			.four{
+				margin-top: -150px;
+			}
+
+			.five{
+				margin-top: -200px;
+			}
+
+			.six{
+				margin-top: -250px;
+			}
+
+			.seven {
+				margin-top: -300px;
+			}
+
+			.eight{
+				margin-top: -350px;
+			}
+
+			.nine{
+				margin-top: -400px;
+			}
+
+			.ten{
+				margin-top: -450px;
+			}
+
+			.eleven{
+				margin-top: -500px;
+			}
+
+			.twelve{
+				margin-top: -550px;
+			}
+
+			.thirteen{
+				margin-top: -600px;
+			}
+
+			.fourteen{
+				margin-top: -650px;
+			}
+
+			.fifteen {
+				margin-top: -700px;
+			}
+
+			.sixteen {
+				margin-top: -750px;
+			}
+			.seventeen {
+				margin-top: -800px;
+			}
+			.eighteen {
+				margin-top: -850px;
+			}
+			.nineteen {
+				margin-top: -900px;
+			}
+			.twenty{
+				margin-top: -950px;
+			}
+			.twentyone {
+				margin-top: -1000px;
+			}
+			.twentytwo{
+				margin-top: -1050px;
+			}
+			.twentythree{
+				margin-top: -1100px;
+			}
+			.twentyfour{
+				margin-top: -1150px;
+			}
+			.twentyfive{
+				margin-top: -1200px;
+			}
+			.twentysix{
+				margin-top: -1250px;
+
+			}
+			.twentyseven{
+				margin-top: -1300px;
+			}
+			.twentyeight{
+				margin-top: -1350px;
+			}
+
+
+			.layer div { 
+				 height: 50px;
+				/*  width: 50px;*/
+				  background-color: blue;
+				  margin: -40px;
+
+			 }
+
+			 .layer div:nth-child(2n) {
+			 	height: 50px;
+				  width: 50px;
+				  background-color: yellow;
+			 }
+
+			.layer div:nth-child(3n) {
+				height: 50px;
+				  width: 50px;
+				  background-color: red;
+	
+
+			}
