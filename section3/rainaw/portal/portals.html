@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Media Content</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+	    
+	    <a href="http://clui.org/" target="_blank">This is a link to CLUI website where you can learn more.</a> 
+	
+	    <article>
+		    <h2>Portals to Somewhere</h2>
+
+		    <div id="images">
+		    </div>
+		  
+		  
+	    </article>
+
+<script type="text/javascript">
+	const urls = ['http://google.com', 'http://youtube.com', 'http://facebook.com', 'http://tumblr.com'];
+const element = document.querySelector('#images');
+urls.forEach((url, index) => {
+    const div = document.createElement('div');
+    div.setAttribute('id', 'crop');
+    const a = document.createElement('a');
+    a.setAttribute('href', url);
+    a.setAttribute('target', '_blank');
+    const img = document.createElement('img');
+    img.setAttribute('src', (index + 1) + '.png');
+
+    a.appendChild(img);
+    div.appendChild(a);
+    element.appendChild(div);
+});
+</script>
+
+
+    </body>
+</html>
