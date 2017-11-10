@@ -10,6 +10,7 @@ body{
 img{
 	display: block;
 	width: 600px;
+	margin: auto;
 }
 a{
 	font-style: 'arial';
@@ -30,4 +31,7 @@ h2{
 .gif{
 	width: 300px;
 
+}
+h1{
+	margin: auto;
 }
