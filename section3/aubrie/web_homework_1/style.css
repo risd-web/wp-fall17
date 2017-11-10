@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+body{
+	font-size: 30px;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	background-color: rgb(204, 153, 255);
+	margin: auto
+}
+
+p{
+	font-size: 20px;
+	line-height: 0.5;
+	width: 100%
+	margin: 0;
+	text-indent: 3rem;
+	/*text-align : center;*/
+	margin-bottom: 1rem;
+}
+
+.one{
+	font-size: 20px;
+	background-color: rgb(61, 143, 122)
+}
+
+.three{
+	font-size: 20px;
+	background-color: rgb(225, 112, 112)
+}
+
+.two{
+	font-size: 20px;
+	background-color: rgb(51, 102, 255)
+}

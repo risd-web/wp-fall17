@@ -1,0 +1,42 @@
+.subscription{
+	max-width: 100px
+
+} 
+.shop{
+	display: flex;
+}
+body{
+	font-family: Times, serif;
+
+}
+header{
+	font-family: Vertica,sans-serif;
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+	width: 100vw;
+}
+
+nav li{
+	padding: 10px
+	display:;
+}
+#left{
+	float: left;
+}
+#right{
+	float: right;
+}
+#logo{
+	text-align: center;
+	width: 100vw
+}
+#title{
+	display: flex;
+	width: 500px;
+	overflow: hidden;
+}
+#text, #image{
+	flex: 1
+}
