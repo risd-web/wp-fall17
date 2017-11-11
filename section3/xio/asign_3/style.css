@@ -1,3 +1,10 @@
+.container{
+	width: 3200px;
+	height: 1000px;
+	overflow: hidden;
+}
+
+
 div, .brick {  /* declarations */ }
 			/* all divs AND brick classes */
 			
@@ -116,6 +123,12 @@ div, .brick {  /* declarations */ }
 			}
 			.twentyeight{
 				margin-top: -1350px;
+			}
+			.twentynine{
+				margin-top: -1400px;
+			}
+			.thirty{
+				margin-top: -1450px;
 			}
 
 
