@@ -1,0 +1,76 @@
+body{
+	
+}
+div{
+	box-sizing: border-box;
+}
+
+.head {
+	width: 500px;
+	height: 750px;
+	background: #ff68bd;
+	-moz-border-radius: 500px / 250px;
+	-webkit-border-radius: 500px / 250px;
+	border-radius: 500px / 400px;
+	position: absolute;
+	top: 200px;
+	left: 500px;
+	margin: auto;
+
+}
+#mouth{
+	width: 200px;
+	height: 100px;
+	background: #d800ca;
+	display: flex;
+	
+	margin: auto;
+
+}
+.teeth{
+	margin: 1px;
+	width: 10px;
+	height: 10px;
+	background: white;
+	flex: 1;
+
+}
+.teethbt{
+	margin: 1px;
+	width: 10px;
+	height: 10px;
+	background: white;
+	flex: 1;
+	float: bottom;
+}
+#botheyes{
+	width:200px;
+	margin: auto;
+	overflow: auto;
+}
+
+.eye{
+	background:#28f0ff;
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+	float: left;
+	padding: 2rem;
+}
+/*#eye1 {
+	margin-top: 200px;
+	margin-left: 25px;
+	background:#28f0ff;
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+}
+#eye2 {
+	position: relative;
+	margin-top: 200px;
+	margin-left: 240px;
+	background:#28f0ff;
+	width: 100px;
+	height: 100px;
+	border-radius:50%;
+}*/

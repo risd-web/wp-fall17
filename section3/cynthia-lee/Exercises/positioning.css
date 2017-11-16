@@ -1,0 +1,18 @@
+.rel{
+	position: relative;
+	top:100px;
+	right: 500px;
+	background: blue;
+}
+
+.fixed{
+	background: green;
+	position: fixed;
+}
+
+.absolute{
+	position: absolute;
+	top:100px;
+	right: 500px;
+	background: orange
+}

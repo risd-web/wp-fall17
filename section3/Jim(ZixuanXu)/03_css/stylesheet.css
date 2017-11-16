@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet');
+
+
+body{
+	background:rgb(165, 163, 212);
+	font-size: 13px;
+	font-family: 'Timesnewman ',monospace;
+	color: rgb(82, 75, 30);
+}
+
+h3{
+	font-style: normal;
+	text-decoration: underline;
+	color: blue;
+}
+
+.description{
+	border:1px solid red;
+	flex:1;
+	min-width: 25%;
+}
+.wide {
+
+}
+#colums{
+	background: rgb(230,245,220);
+	display:flex;
+	flex-wrap:wrap;
+}
+
+p{
+	line-height: 1.2;
+    margin-bottom: auto;
+    width: 80%;
+    border: 3px solid #c3a3a3;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.noindent{
+	color: black;
+}
+
+#intro{
+	font-size: : 1.5rem;
+}

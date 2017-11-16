@@ -1,0 +1,10 @@
+body{
+
+}
+
+div{
+    display: -webkit-flex;
+    -webkit-justify-content: center; 
+    display: flex;
+    justify-content: center;
+}

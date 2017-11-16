@@ -1,0 +1,83 @@
+body{
+	background: rgb(255,255,255);
+	height: 200vh;
+}
+
+.box{
+	width: 300px;
+	height: 350px;
+	float: left;
+	background: #000;
+	margin-right: -75px;
+	margin-bottom: -150px;
+	color: white;
+	font-size: 5rem;
+	border-radius:  25px 25px 5px 5px;
+	border: 15px;
+	border-color: black;
+}
+.yellow{
+	background: yellow;
+	mix-blend-mode: overlay;
+}
+.blue{
+	background: blue;
+	mix-blend-mode:  overlay;
+}
+.green{
+	background: green;
+	mix-blend-mode:  overlay;
+}
+.orange{
+	background: orange;
+	mix-blend-mode:  overlay;
+}
+/*relative can still keep the */
+/*.rel{*/
+	position: relative;
+	top: 100px;
+	right: 100px;
+	background: blue;
+}
+
+.absolute{
+	position: absolute;
+	top: 100px;
+	right: 500px;
+	background: rgba(255,0,0,0.5);
+	z-index: -5;
+}
+
+.fixed{
+	background: green;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	/*overflow: hidden;*/
+	/*transform: skew(30deg);*/
+}
+
+.circle-container{
+	position: absolute;
+	background: red;
+	overflow: hidden;
+	top: 30px;
+	left: 50px;
+}
+
+.circle{
+	width: 300px;
+	height: 300px;
+	background: yellow;
+	border-radius: 50%;
+
+	overflow: hidden;
+/*	mix-blend-mode: screen;*/
+}
+.text{
+	position: relative;
+	bottom: 50px
+	color: black;
+	right:150px;
+}
+
