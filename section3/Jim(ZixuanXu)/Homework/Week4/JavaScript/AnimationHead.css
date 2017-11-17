@@ -12,7 +12,7 @@ div{
     width: 400px;
 }
 
-#eAllHuman{
+#WeAllHuman{
 	position: relative;
 }
 #skull {
@@ -112,18 +112,18 @@ div{
 	-moz-border-radius: 500px / 250px;
 	-webkit-border-radius: 500px / 250px;
 	border-radius: 500px / 400px;
-	position: absolute;
-	top: 200px;
-	left: 500px;
-	float: left;
-	position: absolute;
+	margin: auto;
+	position: relative;
   
 }
 #face:hover{
 	background: #ff5400;
 	animation: scale 1s ease-in alternate infinite;
 }
-
+#skull:hover{
+	background: #f9f9f9;
+	animation: scale 1s ease-in alternate infinite;
+}
 .pupil{
 	width: 25px;
 	height: 25px;
