@@ -1,90 +1,107 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700');
-
-* {
-        margin: 0;
-        padding: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
-    }
-
-
-
-body{
-	font-family: 'Libre Franklin', sans-serif;
-	margin:0;
-	padding: 0;
+body {
+	background-color:#D3D3D3;
 }
 
-h1{
-	font-family: 'Archivo Black', sans-serif;
-	color:white;
-	text-align: center;
+
+.circle {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  border-radius: 50%;
+  left: 650px;
+  top:-80px;
+  position: relative;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 500px solid yellow;
+	top:-880px;
+	left:380px;
 	position: relative;
-	top:270px;
-	font-size: 65px;
+	transform: rotate(-20deg);
+	opacity: 0.8;
+}
+
+.square {
+  height: 450px;
+  width: 450px;
+  position: relative;
+  top:-40px;
+  left:630px;
+  transform: rotate(20deg);
+  background-color: blue;
+}
+
+.innercircle {
+ position: absolute;
+   background: white;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   top:450px;
+   left: 1204px;
+   margin: -150px 0px 0px -150px;
+}
+
+.innertriangle {
+	position: absolute;
+	border-left: 34.5px solid transparent;
+	border-right: 34.5px solid transparent;
+	border-bottom: 69px solid white;
+	top:570px;
+	left:474px;
+	transform: rotate(-20deg);
+}
+
+.innersquare{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top:926px;
+  left:960px;
+  transform: rotate(20deg);
+  background-color: white;
+
+}
+
+h1 {
+	color: white;
+	position: relative;
+	top:-500px;
+	line-height: 60%;
+	font-size: 25px;
+	font-family: 'Nunito', sans-serif;
+	 float: left;
+    left: -50%;
 }
 
 h2 {
-	text-align: center;
+	color: white;
 	position: relative;
-	top:280px;
-	color:white;
-	font-family: 'Julius Sans One', sans-serif;
-
-}
-#intro{
-	background-image: url('https://www.lifestorage.com/blog/wp-content/uploads/2017/03/life-storage-moving-to-los-angeles-2.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin:0;
-	padding:0;
-	height: 100vh;
-	top:0;
+	top:-340px;
+	line-height: 60%;
+	font-size: 25px;
+	font-family: 'Nunito', sans-serif;
+	 float: left;
+    left: -98%;
 }
 
+.parent {
+	 float: left;
+    position: relative;
+    left: 50%;
 
-p{
-	color:white;
-	font-family: 'Archivo Narrow', sans-serif;
-	text-align: left;
-	font-size: 14px;
-	bottom:0;
-	left:0;
-	padding-right: 50px;
-	padding-top: 0px;
 }
 
-h3{ 
-	color:white;
-	font-family: 'Archivo Black', sans-serif;
-	padding-top: 150px;
+h3 {
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	position: relative;
+	left:460px;
+	top:-390px;
+	font-size: 25px;
 
- }
-
- h4 {
- 	color:white;
- 	font-family:'Julius Sans One', sans-serif;
- 	font-size:14px;
- 	padding-top: 10px;
- }
-
-#container{
-	display: flex;
-	background: black;
 }
-.column {
-	flex: 1;
-	padding-top: 25px;
-	column-width: 360px;
-	padding-bottom: 25px;
-}
-
-div.map {
-	content:url(http://www.destination360.com/north-america/us/california/sherman-oaks/courtyard-los-angeles-sherman-oaks-map.gif);
-	padding-left: 20px;
-	height:450px;
-	width:650px;
-}
-
-
