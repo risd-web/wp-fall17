@@ -1,0 +1,30 @@
+.Corn{
+	background-color: #3d8e25;
+	width: 120%;
+}
+.Corn div{
+	border-radius:  15px 15px 0 0;
+	width: 200px;
+	height: 260px;
+	border: 50px solid rgba(255, 199, 0,1);
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	left: 20px;
+	mix-blend-mode: overlay;
+	transition: background-color 1s ease-in 1s;
+}
+.Corn div:nth-child(even){
+	margin-left: -10px;
+	background: #ff0090;
+}
+
+@media screen and (max-width: 600px){
+	.Corn div{
+		border: 50px solid rgba(186, 173, 128,1);	
+	}
+
+}
+#Myweb:hover{
+	background-color: black;
+}
