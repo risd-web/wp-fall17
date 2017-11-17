@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr|Signika');
+
+
+body{background: lavender;
+	font-family: 'Signika', sans-serif;
+font-family: 'Mitr', sans-serif;
+	font-size: 3em;
+
+	}
+
+
+#container{
+	clear: both;
+	margin-left: 140px;
+	overflow: auto;
+}
+
+#two{
+	margin-left: 540px;
+/*		overflow: auto;*/
+}
+
+.box{
+	width: 130px;
+	height: 130px;
+	float: left;
+	background: white; 
+}
+
+
+.circle{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	float: left;
+	background: white; 
+		position: relative;
+
+}
+
+.red{
+	background: tomato;
+
+
+}
+
+.hover:hover{
+	transition: background-color 0.5s ease-in;
+	 opacity: 0.5;
+	 border-right: 80px solid yellow;
+	 border-radius: 10%;
+}
+
+.radius:hover{
+	border-radius: 50%;
+	background: magenta;
+		transition: all 1s ease-in;
+}
+
+.yellow{
+	background: #F9C108;
+}
+
+.blue{
+	background: #014B7F;
+}
+
+.align{
+	margin-left: 100px;
+}
+
+.grey{
+	background: cornflowerblue;
+}
+
+
+.remove{
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+#text{
+	display: flex;
+}
+
+.col{
+	flex: 1;
+}
+
+.head{
+	font-size: 40px;
+	margin-top: 0}
+
+.fontsize{
+	font-size: 1rem;
+}
+
+
+@keyframes change{
+
+0% {transform: scale(.3); 
+	background: blue;
+ }
+
+ 50% {transform: scale(.8);
+ 	background: red;}
+
+ 100%{transform: scale(1.5);
+ 	background: yellow;}
+
+}
+
+.ani{
+animation-name: stretch;
+animation:change 2s alternate infinite;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
