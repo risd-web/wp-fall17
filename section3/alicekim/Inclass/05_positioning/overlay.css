@@ -1,0 +1,43 @@
+
+body{
+	/*background: linear-gradient(45deg, red, yellow) no-repeat; */
+	min-height: 100vh;
+}
+section{
+	padding-top: 3rem;
+}
+
+.panel{
+	margin: auto;
+	width: 10em;
+	height: 8em;
+	border: 1px solid blue;
+	text-align: center;
+	position: relative;
+}
+
+
+.overlay{
+	position: absolute;
+	background: blue;
+	color: white;
+	width: 10em;
+	height: 8em;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+
+/*.panel:hover .overlay{
+	display: block;
+}*/
+
+.yellow{
+	background: yellow;
+}
+
+.panel:hover{
+	color: red;
+	background: blue;
+}
