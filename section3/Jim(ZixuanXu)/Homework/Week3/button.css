@@ -1,0 +1,19 @@
+body{
+	width: 900px;
+	float: left;
+	
+}
+.button {
+	width: 90px;
+	height: 90px;
+	background-color: #afb505;
+	transition: background-color .5s ease-in 0s; 
+}
+
+.button:hover {
+	background-color: #04d185;
+	margin-left: 10px;
+}
+.button div:nth-child(3n){
+	background-color: blue;
+}
