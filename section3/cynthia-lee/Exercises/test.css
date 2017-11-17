@@ -1,0 +1,7 @@
+body{
+background:
+radial-gradient(circle at 50% 50%, #F36437 9px, #FFECBD 10px, #FFA13E 11px) 0px 10px,
+radial-gradient(at 40% 100%,      #FF6161 9px, blue 10px, #FF6161 11px),
+#8a3;
+background-size: 40px 40px;
+}
