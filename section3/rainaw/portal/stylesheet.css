@@ -1,0 +1,31 @@
+body{
+	font-size: 90px; 
+	font-family: 'Space Mono', monospace;
+	background-color: black
+}
+
+.header{
+width: 1000px;
+max-height: 200px;
+}
+
+
+.two-images{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.item{
+	max-width: 1500px;
+	max-height: 450px;
+}
+
+img{ 
+max-width: 100%;
+max-height: 100%;
+ }
+
+h1{
+	text-decoration-color: white
+}

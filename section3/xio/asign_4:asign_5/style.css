@@ -1,0 +1,197 @@
+body {
+	background-color:#D3D3D3;
+}
+
+
+.circle {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  border-radius: 50%;
+  left: 650px;
+  top:-80px;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 500px solid yellow;
+	top:-880px;
+	left:380px;
+	position: relative;
+	transform: rotate(-20deg);
+	opacity: 0.8;
+	 -webkit-animation-name: triangle; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: triangle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.square {
+  height: 450px;
+  width: 450px;
+  position: relative;
+  top:-40px;
+  left:630px;
+  transform: rotate(20deg);
+  background-color: blue;
+ -webkit-animation-name: squared; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: squared;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.innercircle {
+ position: absolute;
+   background: white;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   top:450px;
+   left: 1204px;
+   margin: -150px 0px 0px -150px;
+}
+
+.innercircle:hover{
+	         -webkit-transform: scale(3);
+        -ms-transform: scale(3);
+        transform: scale(3);
+        background:yellow;
+}
+
+
+.innertriangle {
+	position: absolute;
+	border-left: 34.5px solid transparent;
+	border-right: 34.5px solid transparent;
+	border-bottom: 69px solid white;
+	top:570px;
+	left:474px;
+	transform: rotate(-20deg);
+}
+
+.innertriangle:hover {
+	 -webkit-transform: scale(3);
+        -ms-transform: scale(3);
+        transform: scale(3) rotate(-20deg);
+        border-left: 34.5px solid transparent;
+	border-right: 34.5px solid transparent;
+	border-bottom: 69px solid blue;
+
+
+}
+
+
+.innersquare{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top:926px;
+  left:960px;
+  transform: rotate(20deg);
+  background-color: white;
+
+}
+
+.innersquare:hover {
+	-webkit-transform: scale(3);
+        -ms-transform: scale(3);
+        transform: scale(3) rotate(20deg);
+        background:red;
+}
+
+h1 {
+	color: white;
+	position: relative;
+	top:-500px;
+	line-height: 60%;
+	font-size: 25px;
+	font-family: 'Nunito', sans-serif;
+	 float: left;
+    left: -50%;
+}
+
+h2 {
+	color: white;
+	position: relative;
+	top:-340px;
+	line-height: 60%;
+	font-size: 25px;
+	font-family: 'Nunito', sans-serif;
+	 float: left;
+    left: -98%;
+}
+
+.parent {
+	 float: left;
+    position: relative;
+    left: 50%;
+
+}
+
+h3 {
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	position: relative;
+	left:460px;
+	top:-390px;
+	font-size: 25px;
+
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+@-webkit-keyframes squared {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes squared {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+}
+
+
+@-webkit-keyframes triangle {
+    from {border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 500px solid yellow;}
+    to {border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 500px solid red;}
+}
+
+/* Standard syntax */
+@keyframes triangle {
+    from {border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 500px solid yellow;}
+    to {border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-bottom: 500px solid red;}
+}
+
+
