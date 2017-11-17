@@ -1,11 +1,8 @@
 body{
-	font-family: Georgia, serif;
-	line-height: 1.5;
-
+	font-family: Times, serif;
 }
 
-
-#page_header{
+header{
 	font-family: Helvetica, sans-serif;
 }
 
@@ -20,6 +17,7 @@ nav li{
 	padding: 10px;
 }
 
+
 #left{
 	float: left;
 }
@@ -30,7 +28,7 @@ nav li{
 
 #logo{
 	text-align: center;
-	width:100vw;
+	width: 100vw;
 }
 
 .links{
@@ -39,62 +37,42 @@ nav li{
 
 
 #title{
-	display:flex;
-	height:500px;
+	display: flex;
+	height: 500px;
 	overflow: hidden;
 }
 
 #text, #image{
-	flex:1
+	flex: 1
 }
 
 #text{
 	background: black;
 	color: white;
-	display: flex;
-	align-items: center;
-
-}
-
-#article_header{
 	text-align: center;
-	width: 100%;
-	}
+}
 
 #image img{
-	m argin-top: -100px;
-	width:100%;
+	margin-top: -100px;
 }
 
-
-
-main{
-	overflow: auto;
+img{
+	width: 100%;
 }
+
 
 
 #bodytext, #rightcol{
-	float:left;
-
+	float: left;
 }
 
 #bodytext{
-	width:70%;
+	width: 70%;
 	padding-left: 100px;
-	padding-right:20px;
+	padding-right: 20px;
 	box-sizing: border-box;
 }
 
-#rightcol{width: 30%;
+#rightcol{
+	width: 30%;
 }
-
-
-
-
-
-
-
-
-
-
-
