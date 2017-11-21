@@ -45,8 +45,8 @@ function populateCalendar() {
     });
     // populate years
     var year = new Date().getFullYear();
-    for (var i = 0; i < 18; i++) {
-        $years.append('<li data-value="' + (year + i) + '">' + (year + i) + '</li>');
+    for (var i = 0; i < 21; i++) {
+        $years.append('<li data-value="' + (year - i) + '">' + (year - i) + '</li>');
     }
 }
 

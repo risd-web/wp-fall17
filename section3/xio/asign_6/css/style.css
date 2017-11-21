@@ -30,7 +30,11 @@ ol,
 ul {
   list-style: none;
 }
-/** Base Calendar Styles **/
+
+a {  
+  text-decoration: none;
+}
+
 .calendar {
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -54,6 +58,7 @@ ul {
   background: #000;
   opacity: 0.05;
 }
+
 .calendar * {
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -61,7 +66,7 @@ ul {
 /** Round List Styles **/
 .round-list {
   border-radius: 50%;
-  color: #545247;
+  color:    #FFDF00;
   -webkit-transition: -webkit-transform 500ms ease-out;
   transition: -webkit-transform 500ms ease-out;
   transition: transform 500ms ease-out;
@@ -145,13 +150,13 @@ ul {
   font-size: 1.4rem;
 }
 .details h1 {
-  margin-bottom: 2.4rem;
+  margin-bottom: 0rem;
   font-weight: 100;
   text-transform: uppercase;
-  font-size: 1.4rem;
-  letter-spacing: 0.8rem;
-  color: #fff;
-  opacity: 0.2;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  color: white;
+
 }
 .details a {
   display: inline-block;
@@ -197,6 +202,11 @@ ul {
   text-transform: uppercase;
   color: #fff;
 }
+
+.event .event-title:hover{
+  color:yellow;
+
+}
 .event .event-date {
   color: #fff;
 }
@@ -216,7 +226,7 @@ ul {
   cursor: pointer;
 }
 .dots li.current {
-  background-color: #e6cf59;
+  background-color:#FFDF00;
   opacity: 1;
 }
 /** Indicator Styles **/
@@ -236,7 +246,7 @@ ul {
   position: absolute;
 }
 .indicator::before {
-  border-top: 14.5rem solid #e5e91e;
+  border-top: 14.5rem solid  #FFDF00;
   border-left: 6.5rem solid transparent;
   border-right: 6.5rem solid transparent;
   top: 0;
