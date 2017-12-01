@@ -1,0 +1,73 @@
+a{
+	font-size: 100px;
+	display: block;
+	text-align: center;
+	font-family: 'arial', sans-serif;
+	color: black;
+	font-style: bold;
+	
+}
+h1{
+	text-align: center;
+	font-size: 20rem;
+	font-style: bold;
+	font-family: 'arial';
+
+
+}
+#blowup{
+	font-family: 'arial',sans-serif;
+	text-align: center;
+	font-style: none;
+	font-size: 250px;
+
+}
+#blowup:hover{
+
+	background: #ff5400;
+	animation: scale 2s ease-in alternate infinite;
+}
+
+@keyframes scale {
+	0% {
+		transform: scale(1);
+		background: #ffe8db;
+	}
+	100%{
+		transform: scale(50);
+		background: #ff5400;
+	}
+}
+
+.Corn{
+	background-color:rgb(126,204,10);
+	width: 120%;
+}
+.Corn div{
+	background-color: rgb(126,204,10);
+	border-radius:  15px 15px 0 0;
+	width: 200px;
+	height: 260px;
+	mix-blend-mode: multiply;
+	float: left;
+}
+.Corn div:hover{
+	animation: colorcorn .5s  alternate infinite;
+}
+
+@keyframes colorcorn{
+	0%{
+		background:rgb(126,204,10);
+		transform: scale(1);
+	}
+	100%{
+		background:#ffdd00; 
+		transform: scale(10,1);
+	}
+}
+@media screen and (max-width: 600px){
+	.Corn div{
+		border: 50px solid rgba(186, 173, 128,1);	
+	}
+
+}
