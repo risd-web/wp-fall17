@@ -1,0 +1,101 @@
+body {
+	counter-reset: section;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	background-color: grey;
+	margin: -3%;
+}
+
+h1{
+	color: white;
+	font-family: helvetica;
+	text-align: center;
+	font-size: 15pt;
+	margin-top:0px;
+	padding-top: 100px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+	z-index: 2;
+}
+
+
+.square1 {
+	width: 400px;
+	height: 200px;
+	margin-left: 200px;
+	margin-top: 0px;
+	background-color: black;  
+	position: relative;
+	z-index: -2;
+	}
+
+.square6 {
+	width: 200px;
+	height: 400px;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color: red;  
+	position: relative;
+	z-index: -2;	
+}
+
+.square2 {
+	width: 200px;
+	height: 200px;
+	margin-left: 200px;
+	margin-top: 200px
+	padding-left: 200px;
+	background-color: white;  
+	position: relative;
+	z-index: -2;
+	}
+
+.square8{
+	width: 200px;
+	height: 200px;
+	margin-left: 400px;
+	margin-top: 200px
+	padding-left: 200px;
+	background-color: red;  
+	position: relative;
+	z-index: -2;
+}
+
+.square3 {
+	width: 200px;
+	height: 200px;
+	margin-left: 0px;
+	margin-top: 200px
+	padding-left: 200px;
+	background-color: white;
+	position: relative;  
+	z-index: -2;
+}	
+.square4 {
+	width: 200px;
+	height: 200px;
+	margin-top: 800px;
+	margin: 0px;
+	background-color: black;  
+	z-index: -2;
+	}
+
+.square5 {
+	width: 400px;
+	height: 200px;
+	margin-left: 200px;
+	margin-top: 200px;
+	background-color: black;  
+	z-index: -2;
+}
+
+.square7 {
+	width: 400px;
+	height: 200px;
+	margin-left: 200px;
+	margin-top: 800px;
+	background-color: red;  
+	z-index: -2;
+	}
