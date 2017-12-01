@@ -30,3 +30,10 @@ img {
 
 }
 
+.copy{
+	position: absolute;
+	color: blue;
+	top: 0;
+	left: 0;
+}
+
