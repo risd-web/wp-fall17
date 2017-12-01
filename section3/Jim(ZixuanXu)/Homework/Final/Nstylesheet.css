@@ -1,0 +1,21 @@
+p{
+	font-size: 20rem
+	text-align:left
+	color: red;
+	
+
+
+}
+p:hover{
+	animation:colorcorn .1s infinte;
+}
+@keyframes colorcorn{
+	0%{
+		background:#369646;
+		transform: scale(1);
+	}
+	100%{
+		background:#910c0c; 
+		transform: scale(1.1,1.2);
+	}
+}

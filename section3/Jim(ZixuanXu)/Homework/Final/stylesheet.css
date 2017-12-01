@@ -4,8 +4,11 @@ a{
 	text-align: center;
 	font-family: 'arial', sans-serif;
 	color: black;
-	font-style: bold;
-	
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+    color: red;
 }
 h1{
 	text-align: center;
@@ -15,12 +18,36 @@ h1{
 
 
 }
+ul{
+	color: green;
+	font-weight: bold;
+	font-size: 20rem;
+	display: flex;
+}
+p{
+	text-align: center;
+	font-style:bold;
+	font-family: 'arial';
+	font-size: 2rem;
+	font-weight: bold;
+}
 #blowup{
 	font-family: 'arial',sans-serif;
 	text-align: center;
 	font-style: none;
 	font-size: 250px;
 
+}
+#blowup2{
+	font-family: 'arial',sans-serif;
+	text-align: center;
+	font-style: none;
+	font-size: 250px;
+}
+#blowup2:hover{
+
+	background: #42cbf4;
+	animation: colorcorn 2s ease-in alternate infinite;
 }
 #blowup:hover{
 
@@ -40,11 +67,11 @@ h1{
 }
 
 .Corn{
-	background-color:rgb(126,204,10);
+	background-color:#369646;
 	width: 120%;
 }
 .Corn div{
-	background-color: rgb(126,204,10);
+	background-color: #369646;
 	border-radius:  15px 15px 0 0;
 	width: 200px;
 	height: 260px;
@@ -52,17 +79,17 @@ h1{
 	float: left;
 }
 .Corn div:hover{
-	animation: colorcorn .5s  alternate infinite;
+	animation: colorcorn .1s  infinite;
 }
 
 @keyframes colorcorn{
 	0%{
-		background:rgb(126,204,10);
+		background:#369646;
 		transform: scale(1);
 	}
 	100%{
-		background:#ffdd00; 
-		transform: scale(10,1);
+		background:#910c0c; 
+		transform: scale(1.1,1.2);
 	}
 }
 @media screen and (max-width: 600px){
