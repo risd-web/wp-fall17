@@ -154,8 +154,8 @@ h3{
 	text-align: left;
 	font-size: 0.75rem;	
 	line-height: 1.5;
-	text-indent: 3rem;
-	padding: 1rem;
+/*	text-indent: 3rem;
+	padding: 1rem;*/
 }
 
 .play{
@@ -174,7 +174,20 @@ h3{
 
 img{display: none;}
 
+#flexbox{
+	display: flex;
+	flex-wrap: wrap;
+}
 
+.grid{
+	max-width: 33%;
+	box-sizing: border-box;
+	padding: 1rem;
+}
+
+.grid img{
+	max-width: 100%;
+}
 
 .layer1 { 
 				background: none;
@@ -195,12 +208,18 @@ img{display: none;}
 			}
 
 @media screen and (max-width: 800px){
+			.grid{
+				max-width: 100%;
+			}
+
 				.layer1 div {
 					border-color: lavender;
 				}
 
 				.layer1 div:nth-child(even) {
 					border-color: red;
+				}
+			}
 
 
 
