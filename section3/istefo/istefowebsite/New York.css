@@ -1,0 +1,29 @@
+body{
+	font-family: 'Cormorant Garamond', serif;
+}
+
+header{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav ul{
+	list-style-type: none;
+	display:flex;
+	width: 100px;
+	justify-content: center;
+}
+
+nav li{
+	padding: 10px;
+}
+.left{
+	float: left;
+}
+
+.rigth{
+	float: right;
+}
+
+.logo{
+	text-align: center;
+}

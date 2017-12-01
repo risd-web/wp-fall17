@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body{
+	background: rgb(255,255,0);
+	font-size: 20px;
+	font-family: 'Anton', monospace;
+}
+
+main{
+	width: 400px
+	margin: auto;
+}
+
+#colums{
+	background: rgb(245,245,0);
+	display: flex; 
+	flex-wrap: wrap;
+}
+
+.description{
+	border: 1px solid red; 
+	flex: 1; 
+	min-width: 25%;
+	box-sizing; border-box; 
+}
+
+.wide{
+	background:rgb(0,255,0);
+}
+
+h3{
+	background-color: yellow;
+	color: blue;
+}
+
+p {
+	line-height: 1.5;
+	margin: 0;
+	text-indent: 3rem;
+	margin:auto;
+	margin-bottom: 1rem;
+}
+
+.noident{
+	text-indent: 0;
+}
+
+#intro{
+	font-style: 1.5rem;
+}
