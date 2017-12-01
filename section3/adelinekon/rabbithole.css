@@ -5,7 +5,9 @@ img{
 .hole {
     margin-bottom: 0px;
     margin-top: 0px;
-    z-index: -2
+    text-align: center;
+    width: 100%;
+    z-index: -2;
 }
 .hole img{
 	width: 1000px;
@@ -15,12 +17,13 @@ img{
 }
 .alice{
 	position: fixed;
-	margin-left: 440px;
-	z-index: -1
+	z-index: -1;
+	text-align: center;
+	width: 100%;
 }
 .alice img{
 	width: 450px;
-	height: 400px;
+/*	height: 400px;*/
 	padding-bottom: 0px;
 }
 h1 {

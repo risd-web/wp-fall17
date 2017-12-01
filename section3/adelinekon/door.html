@@ -21,12 +21,17 @@
 <main>
   <header>
 
- <center><img src="door1.png"> <h1>You find a door at the bottom of the tunnel! But you'll need to shrink to get through it.</h1>
+ <center><div id="changeimage"></div><!-- img src="door1.png" id="door"> --> <h1>You find a door at the bottom of the tunnel! But you'll need to shrink to get through it.</h1>
 </center>
 <a href="wonderland.html"> <h2><center>Now go through the door!➣</center></h2></a>
 </header>
 </main>
 
+<script>
+    $('#door').click(function(){
+        $(this).attr('src', 'door2.png');
+    });
+</script>
 
 </body>
 </html>
