@@ -1,0 +1,93 @@
+
+.flower{
+    margin: auto;
+    margin-top: 50px;
+    width: 150px;
+}
+.bottom{
+    margin: auto;
+    margin-top: 200px;
+    width: 150px;
+}
+#circle { 
+    width: 140px;
+    height: 140px;
+    background-color: #6b3d29;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    left: 615px;
+    top: 160px;
+}
+
+#stem {
+    width: 70px;
+    height: 600px;
+      background-color: #40a977;
+      position: absolute;
+      left: 650px;
+      top: 250px;
+}
+#leaf{
+    display:block;
+   width: 126px;
+   height: 180px;
+   background-color: #40a977;
+   -webkit-border-radius: 50px 50px 50px 50px / 90px 90px 60px 60px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+     transform: rotate(270deg);
+     position: absolute;
+     left: 530px;
+     top: 350px;
+}
+#petal1 {
+   display:block;
+   width: 126px;
+   height: 180px;
+   background-color: #fcdc44;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+ transform: rotate(180deg);
+ position: absolute;
+ left: 620px;
+ top: 210px;
+}
+#petal2 {
+   display:block;
+   width: 126px;
+   height: 180px;
+   background-color: #fcdc44;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+     transform: rotate(100deg);
+     position: absolute;
+     left: 740px;
+     top: 150px;
+}
+#petal3{
+       display:block;
+   width: 126px;
+   height: 180px;
+   background-color: #fcdc44;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+ transform: rotate(270deg);
+ position: absolute;
+ left: 500px;
+ top: 150px;
+
+}
+#petal4 {
+   display:block;
+   width: 126px;
+   height: 180px;
+   background-color: #fcdc44;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+ transform: rotate(0deg);
+ position: absolute;
+ left: 620px;
+ top: 40px;
+
+
+ 

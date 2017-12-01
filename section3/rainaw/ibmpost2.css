@@ -1,0 +1,101 @@
+body {
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+	background-color: grey;
+}
+
+h1{
+	color: white;
+	font-family: helvetica;
+	text-align: left;
+	font-size: 10pt;
+	padding-left:36%;
+}
+
+
+.square1 {
+	width: 33%;
+	height: 100%;
+	background-color: black;  
+	position: fixed;
+	padding-top: 75%;
+	}
+
+.square2 {
+	width: 33%;
+	height: 75%;
+	background-color: white;  
+	position: fixed;
+}
+
+.square3 {
+	width: 33%;
+	height: 50%;
+	background-color: red;  
+	position: fixed;
+}
+
+.square4 {
+	width: 33%;
+	height: 100%;
+	margin-left:33%;
+	background-color: red;  
+	position: fixed;
+}
+
+.square5 {
+	width: 33%;
+	height: 75%;
+	margin-left:33%;
+	background-color: black;  
+	position: fixed;
+}
+.square6 {
+ 	width: 33%;
+	height: 50%;
+	margin-left:33%;
+	background-color: white;  
+	position: fixed;
+}
+
+.square7 {
+	width: 33%;
+	height: 25%;
+	margin-left:33%;
+	background-color: black;  
+	position: fixed;
+}
+
+.square8 {
+	width: 33%;
+	height: 100%;
+	margin-left:66%;
+	background-color: red;  
+	text-decoration-color: black;
+	padding-top: 75%;
+	position: fixed;
+}
+
+.square9 {
+	width: 33%;
+	height: 75%;
+	margin-left:66%;
+	background-color: black;  
+	position: fixed;
+}
+
+.square10 {
+	width: 33%;
+	height: 50%;
+	margin-left:66%;
+	background-color: red;  
+	position: fixed;
+}
+
+.square11 {
+	width: 33%;
+	height: 25%;
+	margin-left: 66%;
+	background-color: black;  
+	position: fixed;
+}

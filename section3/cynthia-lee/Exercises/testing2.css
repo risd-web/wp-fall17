@@ -1,0 +1,31 @@
+body{background-color:white;
+background-image:
+radial-gradient(orange 10px, transparent 10px),        
+repeating-radial-gradient(orange 10px, pink 4px, transparent 5px, transparent 20px,
+	#FE6645 21px, #FE6645 35px, transparent 26px, transparent 10px);    
+background-size: 30px 30px, 90px 90px; 
+background-position: 0 0;
+}
+
+
+.layer div { 
+	width: 80px;
+	height: 80px;
+	float: left;
+	border: 90px solid #F1456C;
+	border-right: 90px solid orange;
+	border-radius:  50%;
+	mix-blend-mode: overlay;
+	margin: -40px;
+ }
+
+ .layer div:nth-child(2n) {
+ 	border-color: turquoise;
+ 	filter: blur(10px);
+ }
+
+.layer div:nth-child(3n) {
+	border-color: rgba(0,155,245,1);
+	transform: rotate(90deg);
+	border-left: 80px solid blue;
+}

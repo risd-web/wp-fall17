@@ -1,0 +1,108 @@
+@import url(font-family: 'Barlow Condensed', sans-serif;);
+
+html {
+    border-left: 60px solid #383838;
+    background-color: white;
+    border-right: 60px solid #383838;
+}
+
+body{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+	font-size: 80px;
+	letter-spacing: 20px;
+}
+
+/*img {
+   padding:1px;
+   border:10px solid #021a40;
+}*/
+
+
+img.noborder {
+	border:none;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+section{
+	padding-bottom: 400px;
+}
+
+.skimmilk{
+    width: 200px;
+    height: 120px;
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto
+    margin-top:50px;
+}
+
+/* resize images */
+.skimmilk img {
+    width: 40%;
+    height: auto;
+}
+
+/*.car{
+	width: 200px;
+	height: 120px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+    margin-top:50px;
+}
+
+.car img {
+	width: 50%;
+	height: auto;
+}*/
+
+video {
+	display: block;
+	max-width:2000px;
+	max-height:500px;
+	width: auto;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.kourtney{
+	display: block;
+	max-width:3000px;
+	max-height:700px;
+	width: auto;
+	height: auto;
+}
+
+/* resize images */
+.kourtney img {
+    width: 40%;
+    height: auto;
+}
+
+.special{
+	margin: auto;
+}
+

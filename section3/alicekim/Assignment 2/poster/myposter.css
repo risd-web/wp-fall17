@@ -1,0 +1,195 @@
+body{
+	background: lightgrey;
+	font-family: Helvetica, sans-serif;
+/*	border-left: 60px solid #383838;
+	border-right: 60px solid #383838;;*/
+}
+
+#bblack{
+    width: 1200px;
+    height: 1200px;
+    background: rgba(0, 0, 0, 0.91);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0px, -400px);
+}
+
+#orange{
+	width: 400px;
+    height: 400px;
+    background: #e24724;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(20px, -1150px);
+}
+
+#sblack{
+    width: 18px;
+    height: 18px;
+    background: rgba(0, 0, 0, 0.91);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(25px,-1355px);
+}
+
+#text{
+	display: flex;
+}
+
+.orange, .black{
+	flex: 1;
+}
+
+.orange{
+	transform: translate(500px,-1360px);
+}
+
+h1,h2,h3{
+	font-size: 25px;
+}
+h1{
+	position: absolute;
+	top: 0px;
+	left: 60px;
+}
+
+h2{
+	position: absolute;
+	top: 25px;
+	left: 170px;
+}
+
+h3{
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+
+.black{
+	color: lightgrey;
+	transform: translate(300px,-1200px);
+}
+
+h4,h5,h6{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+h4{
+	position: absolute;
+	top: 20px;
+	left: -225px;
+}
+
+h5{
+	position: absolute;
+	top: 30px;
+	left: -193px;
+}
+
+h6{
+	position: absolute;
+	top: 37px;
+	left: -265px;
+}
+
+h7{
+	position: absolute;
+	top: 115px;
+	left: -335px;
+}
+
+h8{
+	position: absolute;
+    top: 133px;
+    left: -370px;
+}
+
+h9{
+	position: absolute;
+    top: 150px;
+    left: -403px;
+}
+
+h10{
+	position: absolute;
+    top: 168px;
+    left: -485px;
+}
+
+h11{
+	position: absolute;
+    top: 208px;
+    left: -525px;
+}
+
+h12{
+	position: absolute;
+    top: 225px;
+    left: -483px;
+}
+
+h13{
+	position: absolute;
+    top: 242px;
+    left: -375px;
+}
+
+.grey{
+	transform: translate(0px,-800px);
+}
+
+p1{
+	position: absolute;
+    top: 0px;
+    left: -600px;
+}
+
+p2{
+	position: absolute;
+    top: 18.5px;
+    left: -570px;
+}
+
+p3{
+	position: absolute;
+    top: 35px;
+    left: -530px;
+}
+
+
+/*
+#text{
+	display: flex;
+}
+
+.left, .right{
+	flex: 1;
+}
+
+.left{
+	text-align: right;
+	margin-right: 1rem;
+}
+
+h1{
+	margin-bottom: 1rem;
+}
+
+h1,h2{
+	font-size: 2rem;
+}
+
+h2{
+	margin: 0;
+}
+
+#poster{
+	transform: rotate(30deg)
+}
