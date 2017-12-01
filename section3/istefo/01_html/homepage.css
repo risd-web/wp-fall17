@@ -1,0 +1,32 @@
+body {background-color: rgb(255, 245, 237)
+}
+
+body {background-color: none;}
+
+h1 {margin-bottom: 45px;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#header {
+	text-decoration-color: rgb(255, 0, 246) 
+}
+
+#fabulous {
+	margin-left: 50px;
+	margin-top: 50px;
+	letter-spacing: 1px;
+	line-height: 150%;
+}
+img {
+	width: 900px;
+	margin-left: 270px;
+	margin-top: -90px
+
+}
+
