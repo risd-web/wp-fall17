@@ -1,0 +1,88 @@
+body{
+	height: 500px;
+}
+div{
+	box-sizing: border-box;
+}
+
+.object{
+	margin:auto;
+	margin-top: 50px;
+    width: 150px;
+}
+
+#face{
+   display:block;
+   width: 126px;
+   height: 180px;
+   background-color: rgb(46, 158, 102);
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
+#eyes{
+	background: black;
+    height: 45px;
+    position: relative;
+    width: 15px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+#eyes:after {
+  background: black;
+  content: "";
+  height: 20px;
+  left: -15px;
+  position: absolute;
+  top: 14px;
+  width: 45px;
+
+}
+  
+.eye{
+	width: 80px;
+}
+
+.flex{
+	display: flex;
+	margin: auto;
+}        
+
+#mouth {
+    position: relative;
+    width: 212px;
+    height: 100px;
+}
+
+#mouth:before,
+#mouth:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 32px;
+    width: 15px;
+    height: 15px;
+    border: 20px solid rgb(255, 204, 204);
+    -moz-border-radius: 50px 50px 0 50px;
+         border-radius: 30px 100px 30px 50px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+
+}
+/*
+#mouth:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+         border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+
+
