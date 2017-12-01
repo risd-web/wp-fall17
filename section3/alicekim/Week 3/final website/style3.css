@@ -1,0 +1,48 @@
+@import url(font-family: 'Barlow Condensed', sans-serif;);
+
+body{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text{
+	text-align: center;
+	font-size: 100px;
+}
+
+#p1{
+	color: red;
+}
+
+#p2{
+	color: yellow;
+}
+
+#p3{
+	color: blue;
+}
+
+#p4{
+	color: red;
+}
+
+#p5{
+	color: yellow;
+}
+
+#p6{
+	color: blue;
+}
+
+#p7{
+	color: red;
+}
+
+#p8{
+	color: yellow;
+}
+
+#p9{
+	color: blue;
+}
+
+
