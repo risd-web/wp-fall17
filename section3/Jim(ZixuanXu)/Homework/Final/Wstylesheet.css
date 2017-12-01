@@ -1,0 +1,52 @@
+h1{
+	text-align: center;
+	font-size: 20rem;
+	font-weight: bold;
+	font-family: 'arial';
+	animation: damage 4s alternate infinite;
+}
+
+@keyframes damage{
+	0% {
+	    transform: skewX(-20deg);
+	   
+	    color: orange;
+  	}
+  	25% {
+	    transform: skewX(20deg);
+	    color: blue;
+  }
+  	50%{
+  		transform: rotateY(0deg);
+	    color: green;
+  	}
+  	75%{
+  		transform: rotateY(360deg);
+  		color: red;
+  	}
+  	100%{
+  		transform: skewY(20deg);
+  	}
+}
+a{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	font-family: 'arial', sans-serif;
+	color: black;
+	text-decoration: none;
+	top: 2rem;
+	font-weight: bold;
+
+}
+a:hover{
+		color: green;
+	
+}
+p{
+	display: block;
+	margin: auto;
+	width: 60%;
+	height: 50%;
+
+}
