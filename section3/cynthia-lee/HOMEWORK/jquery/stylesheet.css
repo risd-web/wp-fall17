@@ -47,16 +47,13 @@ h2{
 	text-align: left
 }
 
-
-
-h3{text-align: center}
-
 em{
 	font-style: normal;
 	text-decoration: underline;
 }
 
 h3{
+	text-align: center;
 	color:rgb(255, 137, 246);
 	background-color:white;
 }
@@ -89,61 +86,80 @@ li{
 
 
 
+.box{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: pink;
+	margin-bottom: 15px;
 
+}
 
 .click{
 	align-items: center;
   	align-content: center;
-	background: none;
-	color: black;
-	text-align: center;
-	border-radius: 1px;
 	cursor: pointer;
 }
 
 .click:hover{
-	color: lavender;
+	background: red;
+}
+
+
+.box2{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: red;
+
+}
+
+.click2{
+	align-items: center;
+  	align-content: center;
+	cursor: pointer;
+}
+
+.click2:hover{
+	background: orange;
+}
+
+.box3{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: pink;
+
+}
+
+.click3{
+	align-items: center;
+  	align-content: center;
+	cursor: pointer;
+}
+
+.click3:hover{
+	background: yellow;
 }
 
 h1{
 	display: none;
 }
-
-.elementcontainer {
-	height: 80vh;
-	display: flex;
-  	align-items: center;
-  	align-content: center;
-  	-webkit-flex-flow: wrap;
-  	justify-content: center;
+h3{
+	display: none;
 }
-
-
-.element {
-	width: 100px;
-	height: 100px;
-	margin: 10px;
-	background-color: blue;
-}
-
-.element:hover{
-	cursor: pointer;
-	background: teal
-}
-
 
 .reveal{
 	display: block;
 	text-align: left;
-	font-size: 0.75rem;
-	margin: auto;
+	font-size: 0.75rem;	
 	line-height: 1.5;
 	text-indent: 3rem;
 	padding: 1rem;
 }
 
 .play{
-	animation: wheel 1s ease-in-out alternate infinite;
+	animation: wheel 2s ease-in-out alternate infinite;
 }
 
 @keyframes wheel {
@@ -156,24 +172,35 @@ h1{
 }
 
 
+img{display: none;}
 
 
 
+.layer1 { 
+				background: none;
+				width: 100%;
+			   }
+			.layer1 div { 
+				 border: 50px solid pink;
+				 width: 30px;
+				 margin-left: -15px;
+				 height: 30px;
+				 float: left;
+				 mix-blend-mode: multiply;
+				 border-radius: 50%;
+				 transition: border 1s ease-in;
+			  }
+			.layer1 div:nth-child(even) {
+				 border: 20px solid orange;
+			}
 
+@media screen and (max-width: 800px){
+				.layer1 div {
+					border-color: lavender;
+				}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+				.layer1 div:nth-child(even) {
+					border-color: red;
 
 
 
