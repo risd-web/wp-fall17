@@ -3,12 +3,23 @@ $(document).ready(function(){
 
 
 
-$("section.grip article ").click(function(){
-        $('section.grip article').removeClass('z-front');
-        $(this).toggleClass('z-front');
+$("body").click(function(){
+        
+        $( this ).toggleClass( "black")
+        $( ".circle" ).toggleClass( "white")
+        $( ".bar" ).toggleClass( "black")
+        $( ".bar-top" ).toggleClass( "black")
+        $( ".bar-bottom" ).toggleClass( "black")
+ 
+});
 
 
-    });
+$( function() {
+    $( ".draggable" ).draggable();
+  } );
+
+
+
 
 
 

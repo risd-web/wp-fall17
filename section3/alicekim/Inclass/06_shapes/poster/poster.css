@@ -1,0 +1,44 @@
+body{
+	background: #3694c5;
+	font-family: Helvetica, sans-serif;
+	font-size: 3em;
+}
+
+#top, #bottom{
+	overflow: auto;
+	background: #3694c5;
+}
+
+.square{
+	width: 300px;
+	height: 300px;
+	background: yellow;
+	margin: 10px;
+	float: left;
+	mix-blend-mode: multiply;
+	opacity: 0.8;
+}
+
+#bottom{
+	margin-top: -100px;
+	margin-left: 500px;
+	width: 1600px;
+}
+#bottom .square{
+	background: blue;
+	width: 500px;
+	height: 500px;
+}
+
+
+#text{
+	display: flex;
+}
+
+.col{
+	flex: 1;
+}
+
+#poster{
+	transform: rotate(30deg);
+}

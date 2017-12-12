@@ -1,0 +1,78 @@
+body { 
+	width: 120%;
+				   }
+.container {
+	position: relative;
+	top: 100px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.stay {
+	display: flex;
+	flex-wrap: wrap;
+	right: 2%;
+}
+
+.section{
+	display: flex;
+	flex-wrap: wrap;
+	right: 2%;
+}
+
+.smalltriangle {
+	top: 100px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #F547C6;
+	mix-blend-mode: multiply;
+	position: relative;
+	z-index: 10;
+}
+
+.bigtriangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid blue;
+	mix-blend-mode: multiply;
+}
+
+.bigdown {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 200px solid purple;
+	mix-blend-mode: multiply;
+}
+
+.smallsquareup {
+	width: 100px;
+	height: 100px;
+	background: tomato;
+	mix-blend-mode: multiply;
+}
+
+.smallsquare {
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background: tomato;
+	mix-blend-mode: multiply;
+	position: relative;
+}
+
+.circle{
+	background: #f4ca16;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	mix-blend-mode: multiply;
+}
+
+
+

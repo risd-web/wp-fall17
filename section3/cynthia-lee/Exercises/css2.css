@@ -1,0 +1,100 @@
+body{
+	font-family: Georgia, serif;
+	line-height: 1.5;
+
+}
+
+
+#page_header{
+	font-family: Helvetica, sans-serif;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+
+nav li{
+	padding: 10px;
+}
+
+#left{
+	float: left;
+}
+
+#right{
+	float: right;
+}
+
+#logo{
+	text-align: center;
+	width:100vw;
+}
+
+.links{
+	display: inline-block;
+}
+
+
+#title{
+	display:flex;
+	height:500px;
+	overflow: hidden;
+}
+
+#text, #image{
+	flex:1
+}
+
+#text{
+	background: black;
+	color: white;
+	display: flex;
+	align-items: center;
+
+}
+
+#article_header{
+	text-align: center;
+	width: 100%;
+	}
+
+#image img{
+	m argin-top: -100px;
+	width:100%;
+}
+
+
+
+main{
+	overflow: auto;
+}
+
+
+#bodytext, #rightcol{
+	float:left;
+
+}
+
+#bodytext{
+	width:70%;
+	padding-left: 100px;
+	padding-right:20px;
+	box-sizing: border-box;
+}
+
+#rightcol{width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+

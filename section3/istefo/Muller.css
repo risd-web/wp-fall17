@@ -1,0 +1,168 @@
+body{
+	background: rgb(239, 239, 239);
+}
+
+h1 {
+	margin-top: 510px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	margin-left: 20px;
+	margin-top: 780px;
+
+}
+
+.line{
+	background-color: white
+}
+
+.hairline{
+	position: relative;
+	width: 400px;
+	height: 0.8px;
+	margin-right: -400px;
+	float: right;
+	margin-top: -220px;
+}
+
+.white .hairline{
+	background: white;
+}
+
+.line2{
+	background-color: white
+}
+
+.hairline2{
+	position: relative;
+	width: 400px;
+	height: 0.8px;
+	margin-right: -400px;
+	float: right;
+	margin-top: -142px;
+}
+
+.white2 .hairline2{
+	background: white;
+}
+
+.line3{
+	background-color: white
+}
+
+.hairline3{
+	position: relative;
+	width: 400px;
+	height: 0.8px;
+	margin-right: -400px;
+	float: right;
+	margin-top: -73px;
+}
+
+.white3 .hairline3{
+	background: white;
+}
+
+.line4{
+	background-color: white
+}
+
+.hairline4{
+	position: relative;
+	width: 400px;
+	height: 0.8px;
+	margin-right: -400px;
+	float: right;
+	margin-top: -3px;
+}
+
+.white4 .hairline4{
+	background: white;
+}
+
+.graphic{
+	background color: rgb(17, 17, 17);
+}
+
+.box{
+	width: 400px;
+	height: 1300px;
+	margin-right: 0px;
+	float: right;
+	margin-top: -10px
+}
+
+.black .box{
+	background: rgb(17, 17, 17);
+}
+
+.squareone{
+	background-color: blue
+}
+
+.square{
+	width: 250px;
+	height: 250px;
+	margin-right: 0px;
+	float: right;
+	margin-top: -1020px;
+}
+
+.blue .square{
+	background: rgb(42, 115, 234);
+}
+
+.squaretwo{
+	background-color: yellow
+}
+
+.squaretwo2{
+	width: 250px;
+	height: 250px;
+	margin-right: 0px;
+	float: right;
+	margin-top: -770px;
+}
+
+.yellow .squaretwo2{
+	background: rgb(255, 225, 0);
+}
+
+.squarethree{
+	background-color: red
+}
+
+.squarethree3{
+	width: 250px;
+	height: 250px;
+	margin-right: 0px;
+	float: right;
+	margin-top: -530px;
+}
+
+.red .squarethree3{
+	background: rgb(204, 0, 0);
+}
+
+#right{
+	max-width: 320px;
+	margin-right: -370px;
+	margin-top: 790px;
+	letter-spacing: 1px;
+	line-height: 170%;
+	font-family: 'Open Sans', sans-serif;
+	float: right;
+	color: white;
+	font-size: 0.7em;
+}
+
+.text{
+	display: flex;
+}
+
+#left, #right{
+	flex: 1;
+}
+
+
+
+

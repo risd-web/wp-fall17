@@ -1,0 +1,80 @@
+
+.button{
+	padding: 2rem 3rem;
+	background: green;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button:hover{
+	opacity: 0.8;
+}
+#test-area {
+ 	height: 200px;
+ 	border: 3px dashed #CCCCCC;
+ 	background: #FFFFFF;
+ 	padding: 20px;
+ 	cursor: url(./blank.cur), none;
+ }
+h1{
+	display: none;
+}
+
+h2{
+	font-weight: normal;
+font-family: Helvetica Neue Bold, sans-serif;
+	text-align: center;
+
+}
+.elementcontainer {
+	height: 80vh;
+	display: flex;
+  	align-items: center;
+  	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+}
+#mycursor {
+ 	cursor: none;
+ 	width: 97px;
+ 	height: 137px;
+ 	background: url("images/custom-cursor.jpg") no-repeat left top;
+ 	position: absolute;
+ 	display: none;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 10000;
+}
+
+.element {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background-color: blue;
+}
+
+.element:hover{
+	cursor: pointer;
+}
+
+
+.reveal{
+	display: block;
+	background: yellow;
+}
+
+.play{
+	animation: wheel 1s ease-in-out alternate infinite;
+}
+
+@keyframes wheel {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+

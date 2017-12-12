@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>Door</title>
+    <meta content="a repository for sample code" name="description">
+    <meta content="width=device-width, initial-scale=1" nsame="viewport">
+    <link href="doors.css" rel="stylesheet">
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
+
+    <script src="js/quizscripy.js"></script>
+
+</head>
+<body>
+<main>
+  <header>
+
+ <center><div id="changeimage"></div><!-- img src="door1.png" id="door"> --> <h1>You find a door at the bottom of the tunnel! But you'll need to shrink to get through it.</h1>
+</center>
+<a href="wonderland.html"> <h2><center>Now go through the door!➣</center></h2></a>
+</header>
+</main>
+
+<script>
+    $('#door').click(function(){
+        $(this).attr('src', 'door2.png');
+    });
+</script>
+
+</body>
+</html>

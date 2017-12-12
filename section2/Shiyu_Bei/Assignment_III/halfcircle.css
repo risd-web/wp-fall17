@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;  
+}
+
+.block div{
+	background: red;
+	height: 100px;
+	flex: 1;
+	min-width: 50%;
+	border: 5px solid white;
+	transition: background 1s ease-in, height 1s ease-in;
+}
+
+.block{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px){
+  .block div{
+    min-width: 25%;
+  }
+  .block div:nth-child(even){
+  	background: pink;
+  }
+}
+
+@media screen and (max-width: 440px){
+  .block div:nth-child(odd){
+  	background: blue;
+  }
+  .block div{
+    min-width: 20%;
+  }
+}

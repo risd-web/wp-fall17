@@ -1,0 +1,20 @@
+body{
+	font-family: Times, serif;
+}
+
+header{
+	font-family: Helvetica, sans-serif;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+
+nav li{
+	padding: 10px;
+}
+
+

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Mitr|Signika');
+
+
+body{background: #EEEDD8;
+	font-family: 'Signika', sans-serif;
+font-family: 'Mitr', sans-serif;
+	font-size: 3em;
+	}
+
+
+#container{
+	margin-left: 140px;
+	overflow: auto;}
+
+#two{margin-left: 540px;
+		overflow: auto;
+	}
+
+.box{
+	width: 100px;
+	height: 100px;
+	float: left;
+	background: black; 
+	margin-top: 300px;
+}
+
+.red{
+	background: #CA0303;
+}
+
+.yellow{
+	background: #F9C108;
+}
+
+.blue{
+	background: #014B7F;
+}
+
+.align{
+	margin-left: 100px;
+}
+
+.grey{
+	background: #A7A096;
+}
+
+
+.remove{
+	margin-top: 30px;
+	margin-bottom: 300px;
+}
+
+#text{
+	display: flex;
+}
+
+.col{
+	flex: 1;
+}
+
+.head{
+	font-size: 40px;
+	margin-top: 0}
+
+.fontsize{
+	font-size: 1rem;
+}

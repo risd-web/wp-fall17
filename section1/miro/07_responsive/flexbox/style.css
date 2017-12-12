@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;  
+}
+
+body{
+  color: #fff;
+}
+
+#parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child {
+  min-height: 100px;
+  background: red;
+  flex: 1;
+  min-width: 25%;
+  border: 5px solid white;
+}
+
+.iconset{
+  display: flex;
+  padding-top: .5em;
+}
+.icon{
+  flex: 1;
+  text-align: center;
+}
+
+.fa{
+  font-size: 2em;
+}
+
+
+@media (max-width: 700px) {
+  .child {
+    min-width: 33.33%; 
+  }
+}
+
+@media (max-width: 400px) {
+  .child {
+    min-width: 50%; 
+  }
+}

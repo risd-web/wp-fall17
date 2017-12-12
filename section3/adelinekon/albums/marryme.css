@@ -1,0 +1,33 @@
+body {
+		font-family: 'Helvetica', serif;
+		color:white;
+		margin-top: 0;
+		margin-right: 100px;
+		margin-bottom: 300px;
+		margin-left: 50px;
+		background: #f73f9a;
+	}
+	h1 {
+		font-size: 15px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	#list {
+	font-size: 20px;
+    max-width: 50%;
+}
+    .note{
+    	font-size: 8rem;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	img {
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+p{
+	margin-top:0px;
+	margin-bottom: 0px;
+}

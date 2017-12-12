@@ -1,0 +1,15 @@
+#left{
+	float:left;
+}
+#title{
+	display: flex;
+	height:500px;
+
+}
+#logo{
+	text-align: center;
+	width: 100vw;
+}
+#right{
+	float: right;
+}

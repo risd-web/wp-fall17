@@ -1,0 +1,78 @@
+body{
+	font-family: Times, serif;
+}
+
+header{
+	font-family: Helvetica, sans-serif;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+
+nav li{
+	padding: 10px;
+}
+
+
+#left{
+	float: left;
+}
+
+#right{
+	float: right;
+}
+
+#logo{
+	text-align: center;
+	width: 100vw;
+}
+
+.links{
+	display: inline-block;
+}
+
+
+#title{
+	display: flex;
+	height: 500px;
+	overflow: hidden;
+}
+
+#text, #image{
+	flex: 1
+}
+
+#text{
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+#image img{
+	margin-top: -100px;
+}
+
+img{
+	width: 100%;
+}
+
+
+
+#bodytext, #rightcol{
+	float: left;
+}
+
+#bodytext{
+	width: 70%;
+	padding-left: 100px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+#rightcol{
+	width: 30%;
+}

@@ -1,0 +1,53 @@
+body{
+  font-family: 'Georgia'; serif;
+  color: black;
+  background: white;
+}
+
+h1{
+  margin-top: 2px;
+  font-size: 18px;
+}
+h2{
+  font-size: 18px;
+  color: white;
+  margin-top: 0px;
+}
+a{
+  color:black;
+text-decoration-line: none;
+
+}
+
+a:hover{
+
+  font-style: italic;
+}
+img {
+    width: 300px;
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+header {
+  margin-top: 50px;
+}
+
+
+#changeimage{
+  background: url(door1.png) no-repeat;
+  height: 500px;
+  width: 500px;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 700px){
+    body {
+        background-color: black;
+        font-style: italic;
+        }
+
+    #changeimage{
+      background-image: url(door2.png);
+    }
+  }

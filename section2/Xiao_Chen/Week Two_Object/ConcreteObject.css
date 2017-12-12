@@ -1,0 +1,119 @@
+
+.object{
+    margin: auto;
+    margin-top: 50px;
+    position:relative;
+    top:400px;
+}
+
+.float{
+	float:left;
+}
+
+
+.circle1{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: white;
+    border-radius: 250px;
+    float: left;
+    position:fixed;
+    left:-40px;
+    top:100px;
+}
+
+.circle2{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: white;
+    border-radius: 250px;
+    float: left;
+    position:fixed;
+    left:360px;
+    top:100px;
+
+}
+
+
+#eyes{
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	background: rgba(255, 0, 0, 0);
+	border-radius: 200px;
+    overflow: hidden;
+
+  }
+
+
+.ineyeup{
+	width: 390px;
+	height: 390px;
+    background: rgba(255, 255, 255, 0);
+	border-radius: 195px;
+	position:relative;
+	left:5px;
+	top: 5px;
+}
+
+
+.eyebelow{
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	background: black;
+	border-radius: 200px;
+	position:relative;
+	bottom:100px;
+	overflow: hidden;
+  }
+
+
+.ineyebelow{
+	width: 390px;
+	height: 390px;
+	background: white;
+	border-radius: 195px;
+	position:relative;
+	left:5px;
+	top: 5px;
+}
+
+
+.eye1{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius: 50px;
+	position:relative;
+	bottom:105px;
+}
+
+.eye2{
+	margin: auto;
+	width: 94px;
+	height: 94px;
+	background: black;
+	border-radius: 47px;
+	position:relative;
+	top:3px;
+}
+
+.eye3{
+	margin: auto;
+	width: 60px;
+	height: 60px;
+	background: white;
+	border-radius: 30px;
+	position:relative;
+	top:16px;
+}
+
+.righteye{
+	position: relative;
+	top:300px;
+}
+

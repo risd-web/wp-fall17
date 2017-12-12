@@ -1,0 +1,61 @@
+h1{
+	text-align: right;
+	font-family: 'Poiret One';
+	font-size:4rem;
+	margin-top: 2rem;
+	margin-bottom: 4rem;;
+	color: white;
+}
+
+
+body{
+	background-color: #B39CFF;
+	margin: 0 100px 200px 100px;
+	margin-top: 0;
+	margin-right: 100px;
+	margin-bottom: 200px;
+	margin-left:x 100px;
+}
+
+h2{
+	font-family:'Poiret One';
+	font-size:3rem;
+}
+
+body{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+#flexbox{
+	display: flex;
+}
+.yay{
+	display: block;
+	clear: both;
+	margin-bottom: 10px;
+	padding: 20px 20px;
+	font-size: 20px;
+	color: #FFFFFF;	
+	text-align: center;
+}
+
+#flexbox .yay{
+	flex: 1;
+}
+
+.yay1 {
+	background: #E4FFC4;
+	border:#FFDE9C;
+	margin-right: 10rem;
+}
+
+.yay2 {
+	background: #99EBE6;
+	border:#FFDE9C;
+	margin-right: 10rem;
+}
+
+.yay3 {
+	background: #FFE5CA;
+	border:#FFDE9C;
+}

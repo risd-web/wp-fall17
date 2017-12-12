@@ -1,0 +1,84 @@
+@import url(font-family: 'Barlow Condensed', sans-serif;);
+
+/*.button{
+	padding: 2rem 3rem;
+	background: green;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+}*/
+
+.button:hover{
+	opacity: 0.8;
+}
+
+h1{
+	display: none;
+}
+
+h2{
+	font-size:900px;
+	position: absolute;
+	transform: translate(300px, -500px);
+}
+
+.shapes{
+	position: absolute;
+}
+
+#triangle{
+	width: 0;
+	height: 0;
+	border-left: 400px solid transparent;
+	border-right: 400px solid transparent;
+	border-bottom: 600px solid red;
+	opacity: 0.5;
+	transform: translate(100px,100px);
+}
+/*
+#triangle{
+    animation: changecolor 3.5s linear 0.2s 3 alternate;
+}
+
+#triangle{
+	transition: background-color 0.3s ease-in 0.2s;
+}
+
+#triangle:hover {
+	background-color: aliceblue;
+	border-right:80px solid orange;
+}
+
+@keyframes changecolor {
+	0%  {
+		 background-color: blue;
+	}
+	50% {
+ 		background-color: yellow;
+ 		color: rgba(200,155,20,0.8);
+	}
+	100%{
+ 		background-color: green;
+	}
+}
+*/
+#square{
+	width: 700px;
+	height: 700px;
+	background: green;
+	opacity: 0.5;
+	transform: translate(340px,-100px);
+}
+
+#circle{
+	width: 700px;
+    height: 700px;
+    background: blue;
+    opacity: 0.5;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(600px,-500px);
+}

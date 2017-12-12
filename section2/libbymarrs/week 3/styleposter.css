@@ -1,0 +1,97 @@
+body{
+	background: grey;	
+}
+
+.circles{
+
+}
+
+.circle{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin: 20px;
+}
+
+.flash{
+	animation: color 5s linear infinite;
+}
+
+.brown .circle{
+background: brown;
+border-radius: 50%;
+}
+
+.blue .circle{
+background: blue;
+border-radius: 50%;
+margin-right: 0em;
+}
+
+.blue, .brown{
+	overflow: auto;
+	mix-blend-mode: multiply;
+	opacity: 50;
+}
+
+.levelone{
+	margin-left: 25em;
+}
+
+.leveltwo{
+	margin-left: 0em;
+	margin-right: -5em;
+}
+
+.overlap{
+	margin-top: -200px;
+	position: absolute;
+}
+
+.text{
+	margin-left: 0px;
+	margin-top: -600px;
+	font-family: Helvetica;
+	font-size: 2em;
+}
+
+.button {
+background-color: white;
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+
+
+}
+.butt{
+	height: 200px;
+	width: 200px;
+	animation: color 5s linear;
+}
+
+.butt2{
+	height: 200px;
+	width: 200px;
+	/*animation: color2 5s linear;*/
+
+
+}
+@keyframes color {
+	0%{background-color: blue}
+	50%{background-color: yellow}
+	100%{background-color: green;}
+}
+@keyframes color2 {
+	0%{background-color: green
+		margin-left:1em;}
+	50%{background-color: yellow}
+	100%{background-color: blue;
+		margin-left: 5em;}
+}
+
+/*#chunk{
+	margin-left: : 500px;
+	height:200px;
+	width: 600px;
+}*/
