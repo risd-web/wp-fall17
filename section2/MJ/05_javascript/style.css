@@ -1,62 +1,122 @@
-
-
-.button{
-	padding: 2rem 3rem;
-	background: green;
-	color: white;
-	text-align: center;
-	border-radius: 10px;
-	cursor: pointer;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #E1CFDB;
 }
 
-.button:hover{
-	opacity: 0.8;
+
+.box {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    font-family: 'Courier New', monospace;
+    color: white;
+    display: inline-block;
 }
 
-h1{
-/*	display: none;*/
-}
-
-.elementcontainer {
-	height: 80vh;
-	display: flex;
-  	align-items: center;
-  	align-content: center;
-  	-webkit-flex-flow: wrap;
-  	justify-content: center;
+.box2 {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    font-family: 'Courier New', monospace;
+    color: white;
+    display: inline-block;
 }
 
 
 .element {
-	width: 100px;
-	height: 100px;
-	margin: 10px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	background-color: #A7EBD0;
+    text-align: center;
+    background-color: #0F3A97;
+    animation: updown 4s ease-out 1 forwards, leftright 2s ease-out 1;
 }
 
-.element:hover{
-	cursor: pointer;
+.element1 {
+    text-align: center;
+    background-color: green;
+    animation: rightleft 4s ease-out 1 forwards, leftright 2s ease-out 1;
 }
 
+.element2 {
+    text-align: center;
+    background-color: #FFDA00;
+    animation: downup 4s ease-out 1 forwards, rightleft 2s ease-out 1;
+}
 
-.reveal{
-/*	display: block;*/
-	background: yellow;
+.element3 {
+    text-align: center;
+    background-color: #FF9B00;
+    animation: leftright 4s ease-out 1 forwards, rightleft 2s ease-out 1;
 }
 
 .play{
-	animation: wheel 1s ease-in-out alternate infinite;
+    animation: rotater 1s ease-in-out alternate infinite;
 }
 
-@keyframes wheel {
-	0% {
-		transform: rotateY(0deg);
-	}
-	100% {
-		transform: rotateY(360deg);
-	}
+.play2{
+    animation: bigger 1s ease-in-out alternate infinite;
+}
+
+@keyframes rotater {
+    0% { 
+        transform:rotate(0) scale(1) 
+    }
+    50% { 
+        transform:rotate(360deg) scale(2) 
+    }
+    100% { 
+        transform:rotate(720deg) scale(1) 
+    }
+}
+
+@keyframes bigger {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(2.0);
+        -webkit-transform: scale(2.0);
+    }
+}
+
+@keyframes updown{
+    0%{
+        transform: translateY(-90vh);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes rightleft{
+    0%{
+        transform: translateX(-90vw) 
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+
+@keyframes leftright{
+    0%{
+        transform: translateX(90vw) 
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+
+@keyframes downup{
+    0%{
+        transform: translateY(90vh);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
