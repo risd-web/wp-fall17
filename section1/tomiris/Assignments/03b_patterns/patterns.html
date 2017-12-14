@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>03 Patterns Pac-Men</title>
+        <title>03 Interactive Patterns</title>
         <style>
             .layer { 
                 width: 100%;
@@ -27,6 +27,19 @@
                 border-color: #ff9933;
                 transform: rotate(0deg);
                 border-left: 80px solid transparent;
+            }
+
+            @media screen and (max-width: 1000px){
+                .layer div {
+                    background-color: #33cccc;
+                    border-color: yellow;
+                }
+                .layer div:nth-child(2n) {
+                    border-color: #00cc99;
+                }
+                .layer div:nth-child(2n) {
+                 border-color: #ff6666;
+                }
             }
         </style>
     </head>
