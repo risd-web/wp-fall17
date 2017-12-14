@@ -30,6 +30,7 @@ img {
 	width: 500px;
 	height: 500px;
 }
+
 .shapeborder { border:0px solid black; }
 .circle { border-radius: 50%; }
 
