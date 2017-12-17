@@ -1,0 +1,112 @@
+button {
+	position: relative;
+	top: 300px;
+	left: 300px;
+	height: 50px;
+}
+
+ body {
+      animation: colorchange 15s; 
+      -webkit-animation: colorchange 15s; 
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange 
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+.box {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    background-color: red;
+    top: 0;
+}
+
+.box2 {
+    width: 100px;
+    height: 40px;
+    top: 50px;
+    position: relative;
+    background-color: red;
+}
+
+.box3 {
+    width: 100px;
+    height: 40px;
+    top: 100px;
+    position: relative;
+    background-color: red;
+}
+
+.box, .box2, .box3 {
+    animation-name: boxmove;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxmove {
+	from {
+	margin-left: 100%;
+    width: 300%; 
+	}
+	to {
+	margin-left: 0%;
+    width: 100%;
+	}
+}
+
+.box4 {
+  border-radius: 5px;
+  height: 40px;
+  margin: 50px auto;
+  width: 80px;
+  
+  .wrap:hover & {
+    transform: scale(2);
+  }
+
+.box5 {
+height: 50px;
+width: 50px;
+top: 300px;
+left: 300px;
+  background: purple;
+  transition: 
+    width      1s,
+    background 0.5s 1s;
+}
+
+/*
+.firstColor{
+background-color: #000000;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+.secondColor{
+background-color: #FFFFFF;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+*/
