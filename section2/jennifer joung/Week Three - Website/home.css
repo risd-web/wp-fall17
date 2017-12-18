@@ -1,10 +1,15 @@
 body{
 	background: white;
+<<<<<<< HEAD
 	padding-left: 3rem;
+=======
+	padding-left: 5rem;
+>>>>>>> parent of 42c4657... upload
 	padding-right: 5rem;
 	color: black;
 	font-family: 'gotham narrow', sans-serif;
 }
+<<<<<<< HEAD
 
 	
 h1 {
@@ -13,6 +18,14 @@ h1 {
   color: #C8C8C8;
   padding-top: 40px;
   padding-left: 2.5rem;
+=======
+	
+h1 {
+	font-size: 25px;
+	word-spacing: 120%;
+    color: #C8C8C8;
+
+>>>>>>> parent of 42c4657... upload
 }
 
 
@@ -45,7 +58,10 @@ a: hover {
 /*    font-style: bold;*/
     line-height: 200%;
     list-style-type: none;
+<<<<<<< HEAD
     padding-top: 40px;
+=======
+>>>>>>> parent of 42c4657... upload
   }
 
 
@@ -82,17 +98,27 @@ p { font-weight: 200;
   float: right;
   width: 35%;
   margin: 0 30px 20px 0;
+<<<<<<< HEAD
 /*  padding-bottom: 20px;*/
   padding-top: 40px;
+=======
+  padding-bottom: 20px;
+>>>>>>> parent of 42c4657... upload
 }
 
 .imagebox {
   float: right;
+<<<<<<< HEAD
   width: 65%;
   margin: 0 30px 20px 0;
 /*  padding-bottom: 20px;*/
   padding-top: 40px;
 /*  padding-left: 90px;*/
+=======
+  width: 60%;
+  margin: 0 30px 20px 0;
+  padding-bottom: 20px;
+>>>>>>> parent of 42c4657... upload
 }
 
 
@@ -100,6 +126,7 @@ p { font-weight: 200;
   opacity: 0.5;
   cursor: pointer;
 }
+<<<<<<< HEAD
 .rainbow { object-fit: contain; }
 
 .unitone { object-fit: contain; }
@@ -108,3 +135,6 @@ p { font-weight: 200;
   opacity: 0.5;
   cursor: pointer;
 }
+=======
+.rainbow { object-fit: contain }
+>>>>>>> parent of 42c4657... upload

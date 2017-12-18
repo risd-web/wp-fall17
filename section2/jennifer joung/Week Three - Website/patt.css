@@ -1,11 +1,16 @@
 body{
 	background: white;
+<<<<<<< HEAD
 	padding-left: 3rem;
+=======
+	padding-left: 5rem;
+>>>>>>> parent of 42c4657... upload
 	padding-right: 5rem;
 	color: black;
 	font-family: 'gotham narrow', sans-serif;
 }
 	
+<<<<<<< HEAD
   
 h1 {
   font-size: 25px;
@@ -13,6 +18,12 @@ h1 {
   color: #C8C8C8;
   padding-top: 40px;
   padding-left: 2.5rem;
+=======
+h1 {
+	font-size: 25px;
+	word-spacing: 120%;
+    color: #C8C8C8;
+>>>>>>> parent of 42c4657... upload
 }
 
 
@@ -32,7 +43,10 @@ ul {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 42c4657... upload
 .link{
     float: left;
     font-weight: 200; 
@@ -40,6 +54,7 @@ ul {
     margin-bottom: 10px;
     margin-top: 0;
     font-family: 'gotham narrow', sans-serif;
+<<<<<<< HEAD
 /*    font-style: bold;*/
     line-height: 200%;
     list-style-type: none;
@@ -47,6 +62,13 @@ ul {
   }
 
 
+=======
+    font-style: bold;
+    line-height: 200%;
+     list-style-type: none;
+
+  }
+>>>>>>> parent of 42c4657... upload
 
 .subhead {
 	font-weight: 200; 
@@ -81,13 +103,18 @@ p { font-weight: 200;
   float: right;
   width: 35%;
   margin: 0 30px 20px 0;
+<<<<<<< HEAD
 /*  padding-bottom: 20px;*/
   padding-top: 40px;
+=======
+  padding-bottom: 20px;
+>>>>>>> parent of 42c4657... upload
 }
 
 .imagebox {
   float: right;
   width: 40%;
+<<<<<<< HEAD
   margin: 0 45px 20px 0;
 /*  padding-bottom: 20px;*/
   padding-top: 40px;
@@ -100,6 +127,16 @@ p { font-weight: 200;
   margin: 0 30px 20px 0;
   padding-right: 22rem;
   padding-top: 40px;
+=======
+  margin: 0 30px 20px 0;
+  padding-bottom: 20px;
+}
+
+.imageboxmov {
+  width: 40%;
+  margin: 0 30px 20px 0;
+  padding-bottom: 20px;
+>>>>>>> parent of 42c4657... upload
 }
 
 .patt { object-fit: contain;}

@@ -1,0 +1,427 @@
+body {
+background-color: lightblue;
+
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: 700px;
+}
+
+h2 {
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 100px;
+    margin-left: 50px;
+    margin-top: -90px;
+}
+#line1{
+	width: 1050px;
+	height: 60px;
+	background: lightblue;
+	margin:90px;
+}
+
+.shape1 {
+  height: 200px;
+  width: 43px;
+  background: lightpink;
+  margin-left: 50px;
+  margin-top: -600px;
+  animation-name: stretch;
+  animation-duration: 3s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes animation-duration:  {
+  0% {
+    transform: rotate3d(1);(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+
+.shape2  {
+  height: 200px;
+  width: 43px;
+  background: lightpink;
+  margin-left: 120px;
+  margin-top: -200px;
+  animation-name: stretch;
+  animation-duration: 4s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+
+.shape3 {
+	width: 43px;
+	height: 200px;
+	background: lightpink;
+	margin-left: 190px;
+	margin-top: -200px;
+	animation-name: stretch;
+  animation-duration: 5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stroke-linecap:  {
+  0% {
+    transform: scale(4);
+    background-color: white;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+.shape4 {
+	width: 43px;
+	height: 200px;
+	background: lightpink;
+	margin-left: 260px;
+	margin-top: -200px;
+	animation-name: stretch;
+  animation-duration: 6s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+
+}
+.shape5 {
+	width: 40px;
+	height: 600px;
+	background: black;
+	margin-left:700px;
+	margin-top: -250px;
+	animation-name:stretch;
+  animation-duration: 7s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: black;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    transform: scale(1.3);
+    background-color: white;
+  }
+}
+.shape6 {
+	width: 300px;
+	height: 200px;
+	background: ivory;
+	margin-left: 600px;
+	margin-top: -250px;
+	animation-name: stretch;
+  animation-duration: 8s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: blue;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: darkblue;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+.shape8 {
+	width: 43px;
+	height: 200px;
+	background: ivory;
+	margin-left: 540px;
+	margin-top: -250px;
+	animation-name: stretch;
+  animation-duration: 1s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+.shape9 {
+	width: 43px;
+	height: 200px;
+	background: ivory;
+	margin-left: 610px;
+	margin-top: -250px;
+	animation-name: stretch;
+  animation-duration: 1.3s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+.shape10 {
+	width: 43px;
+	height: 200px;
+	background: ivory;
+	margin-left: 680px;
+	margin-top: -250px;
+	animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: black;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+.shape11 {
+	width: 43px;
+	height: 200px;
+	background: ivory;
+	margin-left: 750px;
+	margin-top: -150px;
+	animation-name: stretch;
+  animation-duration: 2s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+
+}
+.shape12 {
+	width: 43px;
+	height: 200px;
+	background: ivory;
+	margin-left: 820px;
+	margin-top: -150px;
+	animation-name: stretch;
+  animation-duration: 1.4s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+.shape13 {
+	width: 43px;
+	height: 200px;
+	background: ivory;
+	margin-left: 890px;
+	margin-top: -250px;
+	animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(4);
+    background-color: red;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: white;
+  }
+}
+.shape14 {
+	width: 43px;
+	height: 200px;
+	background: ivory;
+	margin-left: 960px;
+	margin-top: -250px;
+	animation-name: stretch;
+  animation-duration: 1.2s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(3);
+    background-color: black;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: darkblue;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: lightblue;
+  }
+}

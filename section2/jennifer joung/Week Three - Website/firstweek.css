@@ -1,11 +1,16 @@
 body{
 	background: white;
+<<<<<<< HEAD
 	padding-left: 3rem;
+=======
+	padding-left: 5rem;
+>>>>>>> parent of 42c4657... upload
 	padding-right: 5rem;
 	color: black;
 	font-family: 'gotham narrow', sans-serif;
 }
 	
+<<<<<<< HEAD
   
 h1 {
   font-size: 25px;
@@ -17,6 +22,15 @@ h1 {
 
 
 
+=======
+h1 {
+	font-size: 25px;
+	word-spacing: 120%;
+    color: #C8C8C8;
+}
+
+
+>>>>>>> parent of 42c4657... upload
 ul { 
     display: block;
     list-style-type: disc;
@@ -41,12 +55,18 @@ ul {
     font-family: 'gotham narrow', sans-serif;
 /*    font-style: bold;*/
     line-height: 200%;
+<<<<<<< HEAD
     list-style-type: none;
     padding-top: 40px;
   }
 
 
 
+=======
+     list-style-type: none;
+  }
+
+>>>>>>> parent of 42c4657... upload
 .subhead {
 	font-weight: 200; 
     font-size: 15px; 
@@ -76,22 +96,34 @@ p { font-weight: 200;
 
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 42c4657... upload
 .covertext {
   float: right;
   width: 35%;
   margin: 0 30px 20px 0;
+<<<<<<< HEAD
 /*  padding-bottom: 20px;*/
   padding-top: 40px;
+=======
+  padding-bottom: 20px;
+>>>>>>> parent of 42c4657... upload
 }
 
 .imagebox {
   float: right;
   width: 40%;
+<<<<<<< HEAD
   margin: 0 45px 20px 0;
 /*  padding-bottom: 20px;*/
   padding-top: 40px;
 }
+=======
+  margin: 0 30px 20px 0;
+  padding-bottom: 20px;
+>>>>>>> parent of 42c4657... upload
 }
 
 .unitone { object-fit: contain }
