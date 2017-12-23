@@ -49,7 +49,6 @@ function populateCalendar() {
         $years.append('<li data-value="' + (year - i) + '">' + (year - i) + '</li>');
     }
 }
-
 function positionDigits() {
     // position days digits
     positionDigitsOf($days);
