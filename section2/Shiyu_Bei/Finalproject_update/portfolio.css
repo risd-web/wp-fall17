@@ -1,0 +1,123 @@
+body{
+	font-family: 'Rubik', sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.8);
+}
+
+header{
+	width: 100%;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+ul{
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+	color: rgb(255,37,129);
+}
+
+
+
+#intro {
+	font-size: 30px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: right;
+	background: rgb(58,58,58);
+	z-index: 10;
+	position: relative;
+}
+
+.about{
+	height: 50px;
+}
+
+#header-inner{
+	width: calc(100% - 160px);
+	margin: 0 auto;
+}
+
+.menu {
+	height: 0px;
+	font-size: 16px;
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+	float: right;
+}
+
+.nav {
+	font-size: 16px;
+	float: right;
+	opacity:0.5;
+}
+
+.nav:hover {
+	opacity: 1;
+}
+
+
+
+.hidden{
+	opacity:0;
+}
+
+
+#worklist{
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.year{
+	color: grey;
+	font-size: 20px;
+	height: 80px;
+	width: 15%;
+	float: left;
+/*	padding: 5px;
+*/}
+
+
+.name{
+	font-size: 40px;
+	height: 80px;
+	width: 85%;
+	float: left;
+/*	padding: 5px;
+*/	transition: color ease-in-out;
+}
+
+.bo1{
+	margin-top: 30px;
+}
+
+.bo2{
+	margin-top: 18px;
+}
+
+.p1{
+	margin-top: 20px;
+	height: 400px;
+	width: 600px;
+}
+
+.dropdown{
+	margin-left: 180px;
+	height: 600px;
+}
+
+.name:hover{
+	color:rgb(255,37,129);
+}
+
+.drop{
+	display: none;
+}
+
+.hidden1{
+	opacity: 0;
+}
+

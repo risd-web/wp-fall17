@@ -1,0 +1,103 @@
+/*
+#circle {
+	width: 300px;
+	height: 300px;
+}
+*/
+
+#circle {
+	text-align: center;
+	line-height: 300px;
+}
+
+.box1{
+	width: 300px;
+	height: 300px;
+	background: #ffccde;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.box2{
+	width: 300px;
+	height: 300px;
+	margin:20px;
+	background: #ffff4d;
+	border-radius: 50%;
+}
+
+.box3{
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	background: #b3fcff;
+	border-radius: 50%;
+}
+
+.box4{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 30%;
+	margin: 20px;
+	background: lavender;
+	border-radius: 50%;
+}
+
+.box5{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	margin: 20px;
+	background: lightblue;
+	border-radius: 50%;
+}
+
+.box6{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+	background: lightgreen;
+	border-radius: 50%;
+}
+
+.box7{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 20px;
+	background: #99ff99;
+	border-radius: 50%;
+}
+
+.box8{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-top: 150px;
+	margin-right: 20px;
+	background: #ffcc99;
+	border-radius: 50%;
+}
+
+.box9{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	bottom: -150px;
+	right: 0;
+	margin-right: 20px;
+	background: #99ffe6;
+	border-radius: 50%;
+}
+
+

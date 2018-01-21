@@ -1,0 +1,61 @@
+body {
+  background: grey;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  background: none;
+  height: 400px;
+  width: 400px;
+  top: 50px;
+}
+
+.circle {
+  position: absolute;
+  background: #CCC;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  left: 6%;
+  top: 10%;
+}
+
+.lefteye {
+  position: absolute;
+  background: black;
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  left: 35%;
+  top: 32%;
+}
+
+
+.righteye {
+  position: absolute;
+  background: black;
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  right: 25%;
+  top: 32%;
+}
+
+
+
+.smile-1 {
+  -webkit-border-bottom-right-radius: 45px;
+  -webkit-border-bottom-left-radius: 75px;
+  -moz-border-radius-bottomright: 45px;
+  -moz-border-radius-bottomleft: 45px;
+  border-bottom-right-radius: 85px;
+  border-bottom-left-radius: 85px;
+  height: 280px;
+  position: absolute;
+  width: 200px;
+  left: 120px;
+  top: 0px;
+  bottom: 20px;
+  border-bottom: solid 59px black;
+}

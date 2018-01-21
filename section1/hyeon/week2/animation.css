@@ -1,0 +1,20 @@
+body {
+	align-content: center;
+}
+
+.flexbox {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	align-content: center;
+  	-webkit-flex-flow: wrap;
+  	justify-content: center;
+}
+
+.box {
+	flex: 1;
+	width:50px;
+	height: 50px;
+	margin: 10px;
+	background-color: #fff;
+}

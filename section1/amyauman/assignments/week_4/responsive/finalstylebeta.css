@@ -1,0 +1,124 @@
+body { 
+	width: 120%;
+				   }
+.container {
+	position: relative;
+	top: 100px;
+}
+
+.smalltriangle {
+	top: 100px;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #F547C6;
+	mix-blend-mode: multiply;
+	position: relative;
+	float: left;
+}
+
+.bigtriangle {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid blue;
+	mix-blend-mode: multiply;
+	position: relative;
+	float: left;
+}
+
+.bigdown {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 200px solid purple;
+	mix-blend-mode: multiply;
+	position: relative;
+	float: left;
+}
+
+.smallsquareup {
+	width: 100px;
+	height: 100px;
+	background: tomato;
+	mix-blend-mode: multiply;
+	position: relative;
+	float: left;
+}
+
+.smallsquare {
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background: tomato;
+	mix-blend-mode: multiply;
+	position: relative;
+	float: left;
+}
+
+.circle{
+	background: #f4ca16;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	mix-blend-mode: multiply;
+	position: relative;
+	float: left;
+}
+@media screen and (max-width: 1000px){
+	div .section{
+		position: absolute;
+	}
+	.circle {
+		position: absolute;
+		right: .5px;
+}
+	}
+
+@media screen and (max-width: 480px) {
+	body {
+		background: gray;
+}
+	.last {
+		position: absolute;
+		right: .5px;
+}
+
+}
+
+@keyframes encircle{
+	0%  {
+		 transform: translateY(0px);
+	}
+		50%  {
+			 transform: translateY(400px);
+	}
+	100%{
+	 		transform: translateY(0px);
+	}
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate(-1000px);
+  }
+}
+.animate{
+	animation: fadeOutLeft 2s ease-in 1 forwards;
+}
+
+.smalltriangle:hover{
+	cursor: pointer;
+}
+
+.animate2{
+	animation: encircle 3s linear infinite; 
+}

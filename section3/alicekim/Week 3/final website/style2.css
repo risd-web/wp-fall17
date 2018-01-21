@@ -1,0 +1,39 @@
+#toptriangles{
+	width: 0;
+	height: 0;
+	border-top: 100px solid red;
+	border-left: 100px solid transparent;
+}
+
+#bottomtriangles{
+	width: 0;
+	height: 0;
+	border-top: 100px solid yellow;
+	border-left: 100px solid transparent;
+	margin-top: -100px;
+	margin-left: 500px;
+	width: 1600px;
+}
+
+#halfcircle{
+	height:270px;
+    width:540px;
+    border-radius: 540px 540px 0 0;
+    background:green;
+    transform: translate(100px,100px);
+}
+
+#square{
+	width:270px; 
+    height:270px; 
+    background:orange;
+    transform: translate(100px,150px);
+}
+
+#rectangle{
+	width:1000px; 
+    height:600px; 
+    opacity: 0.5;
+    background:blue;
+    transform: translate(500px,0px);
+}

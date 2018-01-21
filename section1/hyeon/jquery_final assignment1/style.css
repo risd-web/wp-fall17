@@ -1,0 +1,356 @@
+body {
+      animation: colorchange 15s; 
+      -webkit-animation: colorchange 15s; 
+      -webkit-animation-iteration-count: infinite;
+
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+    @-webkit-keyframes colorchange 
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+
+img {
+    margin-left: -20px;
+    height: 90%;
+    width: 90%;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.item {
+  flex:1;
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 30px;
+  align-content: center;
+
+}
+
+.circle1 {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border:dashed 5px white;
+  position: relative;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+  from   {  -webkit-transform: rotate(0deg); }
+  to   {  -webkit-transform: rotate(360deg); }
+}
+}
+.circle2 {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.bounce1, .bounce2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: red;
+  opacity: 0.6;
+  position: absolute;
+  top: 100;
+  left: 70px;
+  -webkit-animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 2.0s infinite ease-in-out;
+}
+
+.bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+.circle3,
+.circle3:before,
+.circle3:after {
+    animation: 1s infinite ease-in-out;
+}
+.circle3:before,
+.circle3:after {
+    width: 100%; 
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle3-black { background-color: #333; }
+
+.circle3 {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: green;
+  position: relative;
+  -webkit-animation-name: enlarge;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.circle3 { animation-name: enlarge; }
+@keyframes enlarge {
+    from { transform: scale(0); opacity: 1; }
+    to   { transform: scale(1); opacity: 0; }
+}
+
+.circle40 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: darkblue;
+  position: relative;
+  -webkit-animation-name: ggg;
+  -webkit-animation-duration: 1.6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+}
+
+.circle40 {animation-name: ggg}
+    @keyframes ggg {
+        0% { transform: scale(1); }
+        100% { transform: scale(0); }
+    }
+
+.circle4 {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: blue;
+  position: relative;
+  -webkit-animation-name: ggg;
+  -webkit-animation-duration: 1.6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+}
+
+.circle4 {animation-name: ggg}
+    @keyframes ggg {
+        0% { transform: scale(1); }
+        100% { transform: scale(0); }
+    }
+ 
+ /*
+.circle6 {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: white; opacity: 50%;
+    animation: wow 4s infinite linear;
+}
+
+.circle6:before,
+.circle6:after {
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 50%;
+    animation-name: woww;
+}
+.circle6:after { animation-direction: reverse; }
+
+    @keyframes wow {
+        0% {   transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    @keyframes woww {
+        0%   { transform: scale(0.2); left:   0%; }
+        50%  { transform: scale(1.0); left:  50%; }
+        100% { transform: scale(0.2); left: 100%; }
+    }
+*/
+
+.bew {
+  width: 120px;
+  height: 120px;
+  background-color: black;
+
+  margin: 20px auto;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+  animation: rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+}
+
+.pow {
+  margin: 10px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  
+  -webkit-animation: rotate 2.0s infinite linear;
+  animation: rotate 2.0s infinite linear;
+}
+
+.powow, .powowow {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  position: relative;
+  top: 100;
+  background-color: yellow;
+  border-radius: 100%;
+  
+  -webkit-animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 2.0s infinite ease-in-out;
+}
+
+.powowow {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+.cube-grid {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+}
+
+.cube-grid .cube {
+  width: 33%;
+  height: 33%;
+  background-color: grey;
+  float: left;
+  -webkit-animation: cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.cube-grid .cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.cube-grid .cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.cube-grid .cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.cube-grid .cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.cube-grid .cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.cube-grid .cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.cube-grid .cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.cube-grid .cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.cube-grid .cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+
+.kkyu {
+
+}

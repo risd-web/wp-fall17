@@ -1,0 +1,52 @@
+body {background-color: rgb(255, 245, 237)
+}
+
+h1 {margin-bottom: 45px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#secondcolumns {
+	margin-left: 52px;
+	margin-top: -342px;
+	letter-spacing: 1px;
+	line-height: 150%;
+	color: blue;
+}
+
+#secondcolumns li {
+	list-style-type: none;
+	line-height: 100%;
+	font-size: 15pt;
+	margin-left: -8px;
+	font-family: 'Chathura', sans-serif;
+	color: blue;
+
+}
+
+#columns {
+	margin-left: 50px;
+	margin-top: 50px;
+	letter-spacing: 1px;
+	line-height: 150%;
+	color: black;
+}
+
+#columns li {
+	list-style-type: none;
+	line-height: 100%;
+	font-size: 15pt;
+	margin-left: -8px;
+	font-family: 'Chathura', sans-serif;
+	color: gray;
+
+}
+

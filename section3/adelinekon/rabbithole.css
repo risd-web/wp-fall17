@@ -5,6 +5,12 @@ img{
 .hole {
     margin-bottom: 0px;
     margin-top: 0px;
+<<<<<<< HEAD
+=======
+    text-align: center;
+    width: 100%;
+    z-index: -2;
+>>>>>>> 13e7019235b5ef469dfa8c63e7764cb790ead67b
 }
 .hole img{
 	width: 1200px;
@@ -15,13 +21,19 @@ img{
 }
 .alice{
 	position: fixed;
+<<<<<<< HEAD
 	margin-left: 400px;
 	margin-bottom: 0px;
 	z-index: -1
+=======
+	z-index: -1;
+	text-align: center;
+	width: 100%;
+>>>>>>> 13e7019235b5ef469dfa8c63e7764cb790ead67b
 }
 .alice img{
 	width: 450px;
-	height: 400px;
+/*	height: 400px;*/
 	padding-bottom: 0px;
 }
 h1 {

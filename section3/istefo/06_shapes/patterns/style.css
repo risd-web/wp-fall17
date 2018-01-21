@@ -1,0 +1,72 @@
+#layer1,#layer2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	mix-blend-mode: multiply;
+}
+
+#layer2{
+	top: 100px;
+}
+
+.blurred{
+	filter: blur(10px);
+}
+
+
+.transpose{
+	filter: hue-rotate(45deg);
+}
+
+div div{
+	height: 100px;
+	width: 100px;
+	float: left;
+	color: white;
+	transition: all .5s;
+	margin-left: -50px;
+}
+
+.half{
+	width: 400px;
+}
+
+.quart{
+	width: 200px;
+}
+
+.c{
+	border-radius: 50%;
+	background: linear-gradient(to right, rgb(0,0,255),rgb(255,255,255));
+}
+.cs{
+	background: linear-gradient(to right, rgb(0,70,255),rgb(255,255,255));
+}
+.d{
+	border-radius: 50%;
+	background: linear-gradient(to right, rgb(0,140,255),rgb(255,255,255));
+}
+.e{
+	border-radius: 50% 0;
+	background: linear-gradient(to right, rgb(125,60,220),rgb(255,255,255));
+}
+.f{
+	border-radius: 0% 50%;
+	background: linear-gradient(to right, rgb(0,150,110),rgb(255,255,255));
+}
+.g{
+	border-radius: 50%;
+	background: linear-gradient(to right, rgb(0,0,255),rgb(255,255,255));
+}
+.a{
+	border-radius: 50%;
+	background: linear-gradient(to right, rgb(255,90,75),rgb(255,255,255));
+}
+.b{
+	border-radius: 50% 0;
+	background: linear-gradient(to right, rgb(255,255,0),rgb(255,255,255));
+}
+
+.s{
+	background: white;
+}

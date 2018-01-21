@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<title>patternpractice</title>
+		<style>
+		.box1 {
+			background: none;
+			width: 100%;
+		}
+
+		.box1 div {
+			transform: rotate(10deg);
+			border: 50px solid black;
+			margin: -20px;
+			width: 20px;
+			height: 20px;
+			float: left;
+			transition: border 10s ease-in; 
+			transition: height 10s ease-in;
+			border-radius: 0%;
+			border-right: 40px solid transparent;
+			mix-blend-mode: multiply;
+
+		}
+
+		.box1 div:nth-child(even) {
+			border: 50px white;
+			border-left: 50px solid transparent;
+		}
+
+		@media screen and (max-width: 900px){
+			.box1 div {
+				border-color: red;
+			}
+
+			.box1 div:nth-child(even) {
+				border-color: purple;
+			}
+		}
+		</style>
+	</head>
+
+<body>
+	<div class="box1">
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>	<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>	<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>	<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>	<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+
+	</div>
+</body>
+
+</html>
+

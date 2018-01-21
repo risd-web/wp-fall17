@@ -1,0 +1,15 @@
+body{
+}
+h1{
+  text-align:center;
+}
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo{
+	width: 100px;
+	height: 130px
+
+}
