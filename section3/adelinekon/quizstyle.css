@@ -5,7 +5,9 @@ body{
 }
 
 h1{
-  font-size: 18px;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 35px;
 }
 a{
   color:black;
@@ -18,10 +20,10 @@ a:hover{
   font-style: italic;
 }
 img {
-    width: 300px;
-    height: 450px;
-    margin-bottom: 10px;
+    width: 700px;
+    height: 579px;
+    margin-bottom: -10px;
 }
 header {
-  margin-top: 50px;
+  margin-top: 20px;
 }
