@@ -16,6 +16,7 @@ img{
 .alice{
 	position: fixed;
 	margin-left: 400px;
+	margin-bottom: 0px;
 	z-index: -1
 }
 .alice img{
@@ -27,6 +28,7 @@ h1 {
 	position: relative;
 	bottom: 210px;
 	font-size: 30px;
+	margin-bottom: 0px;
 	z-index: 1
 }
 a{
