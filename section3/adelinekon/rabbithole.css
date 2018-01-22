@@ -13,16 +13,16 @@ img{
     bottom: 0px;
     margin-bottom: 0px;
 }
+
 .alice{
 	position: fixed;
-	margin-left: 400px;
-	margin-bottom: 0px;
-	z-index: -1
+	left: +35%;
 }
 .alice img{
 	width: 450px;
 	height: 400px;
-	padding-bottom: 0px;
+	left: 0px;
+    right: 0px;
 }
 h1 {
 	position: relative;
